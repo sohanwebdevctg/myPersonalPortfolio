@@ -10,7 +10,7 @@ const MainLayout = () => {
       <Navbar></Navbar>
       {/* navbar section end */}
       {/* content section start */}
-      <div className="h-screen px-5 sm:px-8 md:px-10 lg:px-16 xl:px-20 2xl:px-24">
+      <div className="h-full sm:h-screen px-6 sm:px-8 md:px-10 lg:px-16 xl:px-20 2xl:px-24">
         <Outlet></Outlet>
       </div>
       {/* content section end */}

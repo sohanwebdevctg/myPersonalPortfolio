@@ -114,9 +114,8 @@ const Navbar = () => {
         {/* desktop section end */}
       {/* mobile section start */}
       <div className="block sm:hidden">
-
           {/* logo and button section start */}
-          <div className={`${active ? 'fixed top-0 right-0 left-0 z-50 shadow-md shadow-yellow-300': 'sticky'} flex justify-between items-center px-6 h-20 `}>
+          <div className={`${active ? 'fixed top-0 right-0 left-0 z-50 shadow-sm shadow-yellow-300 ': 'sticky'} flex justify-between items-center px-6 h-20 bg-black opacity-95`}>
             <div>
             <h3 className="text-xl font-bold text-white italic"><span className="text-yellow-500">S</span>ohan</h3>
             </div>
@@ -136,7 +135,7 @@ const Navbar = () => {
           </div>
           {/* logo and button section end */}
           {/* link section start */}
-          <div className={`${toggle ? 'top-20 sm:top-24 bottom-0 right-0 left-0' : 'top-20 sm:top-24 -left-96 right-[1000px] bottom-0' } fixed transform duration-500 easy-in bg-black bg-opacity-75 z-50`}>
+          <div className={`${toggle ? 'top-20 sm:top-24 bottom-0 right-0 left-0' : 'top-20 sm:top-24 -left-96 right-[1000px] bottom-0' } fixed transform duration-500 easy-in bg-black bg-opacity-50 z-50`}>
               <ul className="flex flex-col justify-center items-center h-full w-full gap-7 sm:gap-8">
                 <li onClick={() => setToggle(!toggle)}>
                   <NavLink
