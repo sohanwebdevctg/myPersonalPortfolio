@@ -12,16 +12,16 @@ const Banner = () => {
             <div className="flex-1">
               {/* top item */}
               <span className="text-white font-semibold bg-black shadow-inner shadow-slate-800 px-5 py-2 lg:mb-3 rounded-md text-xs inline-block">
-                ARABIC TRADITION
+                SOHANWEBDEVCTG
               </span>
-              <h2 className="lg:text-6xl font-extrabold text-slate-200">
-                Arabic Tradition
+              <h2 className="xl:text-2xl font-bold text-slate-200">
+                Hi, I am <span className="text-yellow-400">sohan mozumder</span>
               </h2>
-              <p className="lg:my-6 lg:text-lg italic text-gray-500">
-                Arab culture is the culture of the Arabs, from the Atlantic Ocean
-                <br></br>in the west to the Arabian Sea in the east, in a region
-                of the <br></br>Middle East and North Africa known as the Arab
-                world.
+              <h2 className="xl:text-4xl font-extrabold text-slate-200">
+                Front-end Web Developer
+              </h2>
+              <p className="lg:my-3 lg:text-lg italic text-gray-500">
+                
               </p>
               <ul className="flex gap-5">
                 <li className="text-base px-6 py-2 bg-yellow-500 text-white font-bold rounded-md">
