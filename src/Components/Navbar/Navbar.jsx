@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="container mx-auto sm:px-8 md:px-10 lg:px-16 xl:px-20 2xl:px-24">
             <div className="flex justify-between items-center h-20">
               {/* logo start */}
-              <div><h3 className="sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold text-white italic"><span className="text-yellow-500">S</span>ohan</h3></div>
+              <div><h3 className="sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold  italic"><span className="text-white">Sohan</span><span className="text-yellow-400">Mozumder</span></h3></div>
               {/* logo end */}
               {/* router start */}
               <div>
@@ -71,7 +71,7 @@ const Navbar = () => {
                       }
                       to="/"
                     >
-                      Portfolio
+                      Service
                     </NavLink>
                   </li>
                 <li>
@@ -83,7 +83,7 @@ const Navbar = () => {
                       }
                       to="/"
                     >
-                      Contact
+                      Project
                     </NavLink>
                   </li>
                 <li>
@@ -95,7 +95,7 @@ const Navbar = () => {
                       }
                       to="/"
                     >
-                      Blog
+                      Contact
                     </NavLink>
                   </li>
                 </ul>
@@ -103,10 +103,9 @@ const Navbar = () => {
               {/* router end */}
               
             <div>
-              <ul className="flex items-center bg-black shadow-inner shadow-slate-700  rounded-2xl text-white sm:px-2 md:px-3 2xl:px-4 sm:py-1 md:py-2 sm:gap-1 md:gap-2">
-                <li className="sm:text-[11px] md:text-xs lg:text-[13px] xl:text-sm 2xl:text-base italic">LOGIN</li>
-                <li className="sm:text-[11px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg text-yellow-500 duration-300"><FaUserShield></FaUserShield></li>
-              </ul>
+              <div className="flex items-center bg-black shadow-inner shadow-slate-700  rounded-2xl text-white p-2">
+                <input type="checkbox" className="toggle sm:toggle-xs lg:toggle-sm bg-yellow-400 hover:bg-yellow-400" />
+              </div>
             </div>
             </div>
           </div>
@@ -117,9 +116,13 @@ const Navbar = () => {
           {/* logo and button section start */}
           <div className={`${active ? 'fixed top-0 right-0 left-0 z-50 shadow-sm shadow-yellow-300 ': 'sticky'} flex justify-between items-center px-6 h-20 bg-black opacity-95`}>
             <div>
-            <h3 className="text-xl font-bold text-white italic"><span className="text-yellow-500">S</span>ohan</h3>
+            <h3 className="text-base font-bold text-white italic"><span className="text-white">Sohan</span><span className="text-yellow-400">Mozumder</span></h3>
             </div>
-            <div>
+            <div className="flex items-center gap-2">
+            <div className="flex items-center bg-black shadow-inner shadow-slate-700  rounded-2xl text-white p-1">
+                    <input type="checkbox" className="toggle toggle-xs bg-yellow-400 hover:bg-yellow-400" />
+                  </div>
+              <div>
               {toggle ? (
                 <IoClose
                   onClick={() => setToggle(!toggle)}
@@ -131,11 +134,12 @@ const Navbar = () => {
                   className="text-yellow-500 text-lg"
                 ></GiHamburgerMenu>
               )}
+              </div>
             </div>
           </div>
           {/* logo and button section end */}
           {/* link section start */}
-          <div className={`${toggle ? 'top-20 sm:top-24 bottom-0 right-0 left-0' : 'top-20 sm:top-24 -left-96 right-[1000px] bottom-0' } fixed transform duration-500 easy-in bg-black bg-opacity-50 z-50`}>
+          <div className={`${toggle ? 'top-20 sm:top-24 bottom-0 right-0 left-0' : 'top-20 sm:top-24 -left-96 right-[1000px] bottom-0' } fixed transform duration-500 easy-in bg-black bg-opacity-95 z-50`}>
               <ul className="flex flex-col justify-center items-center h-full w-full gap-7 sm:gap-8">
                 <li onClick={() => setToggle(!toggle)}>
                   <NavLink
@@ -170,7 +174,19 @@ const Navbar = () => {
                     }
                     to="/"
                   >
-                    Portfolio
+                    Service
+                  </NavLink>
+                </li>
+                <li onClick={() => setToggle(!toggle)}>
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive
+                        ? "text-sm text-yellow-500 font-bold"
+                        : "text-sm text-white"
+                    }
+                    to="/"
+                  >
+                    Project
                   </NavLink>
                 </li>
                 <li onClick={() => setToggle(!toggle)}>
@@ -184,24 +200,6 @@ const Navbar = () => {
                   >
                     Contact
                   </NavLink>
-                </li>
-                <li onClick={() => setToggle(!toggle)}>
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-sm text-yellow-500 font-bold"
-                        : "text-sm text-white"
-                    }
-                    to="/"
-                  >
-                    Blog
-                  </NavLink>
-                </li>
-                <li onClick={() => setToggle(!toggle)}>
-                <ul className="flex items-center bg-black shadow-inner shadow-slate-700  rounded-2xl text-white px-2 py-1 gap-2">
-                <li className="text-xs italic">LOGIN</li>
-                <li className="text-sm text-yellow-500 duration-300"><FaUserShield></FaUserShield></li>
-              </ul>
                 </li>
               </ul>
             </div>
