@@ -1,3 +1,5 @@
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import image from '../../../public/image4.png';
 
 
 const Banner = () => {
@@ -7,13 +9,58 @@ const Banner = () => {
       <div className="container mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-center h-full sm:h-screen gap-5">
           {/* left start */}
-          <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis saepe nam doloremque mollitia doloribus distinctio quo, eaque praesentium, reiciendis tenetur ratione nesciunt dolores earum optio ab facere delectus? Obcaecati dolorum alias maxime fugit, laborum nisi dignissimos veritatis voluptatum aut, ex officiis incidunt deleniti labore! Architecto asperiores et reprehenderit blanditiis voluptatum dolore amet tempora, aliquam magni illum. Voluptas pariatur eaque dolore cum tempore blanditiis deleniti molestias odit rerum repellendus. Numquam iusto possimus dignissimos iste fuga voluptatem. Quibusdam temporibus possimus, expedita facere quam dolores harum? Quo ad iste veritatis cumque cupiditate, vel repellendus! Doloremque aliquam unde possimus deleniti qui laborum aspernatur hic.</p>
+            <div className="flex-1">
+              {/* top item */}
+              <span className="text-white font-semibold bg-black shadow-inner shadow-slate-800 px-5 py-2 lg:mb-3 rounded-md text-xs inline-block">
+                ARABIC TRADITION
+              </span>
+              <h2 className="lg:text-6xl font-extrabold text-slate-200">
+                Arabic Tradition
+              </h2>
+              <p className="lg:my-6 lg:text-lg italic text-gray-500">
+                Arab culture is the culture of the Arabs, from the Atlantic Ocean
+                <br></br>in the west to the Arabian Sea in the east, in a region
+                of the <br></br>Middle East and North Africa known as the Arab
+                world.
+              </p>
+              <ul className="flex gap-5">
+                <li className="text-base px-6 py-2 bg-yellow-500 text-white font-bold rounded-md">
+                  Download CV
+                </li>
+                <li className="text-base px-6 py-2 rounded-md bg-black shadow-sm shadow-white hover:shadow-yellow-500 duration-300 text-white font-bold">
+                  Hire Us Now
+                </li>
+              </ul>
+              {/* top item */}
+              {/* social link  */}
+              <div className="relative top-32 h-full">
+            <ul className="flex gap-2 items-center">
+              <li className="text-slate-500">Check out my:</li>
+              <li className="text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-9 h-9 flex justify-center items-center">
+                <FaFacebookF></FaFacebookF>
+              </li>
+              <li className="text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-9 h-9 flex justify-center items-center">
+                <FaTwitter></FaTwitter>
+              </li>
+              <li className="text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-9 h-9 flex justify-center items-center">
+                <FaLinkedinIn></FaLinkedinIn>
+              </li>
+              <li className="text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 duration-300 w-9 h-9 flex justify-center items-center">
+                <FaInstagram></FaInstagram>
+              </li>
+            </ul>
           </div>
+              {/* social link */}
+            </div>
           {/* left end */}
           {/* right start */}
-          <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis saepe nam doloremque mollitia doloribus distinctio quo, eaque praesentium, reiciendis tenetur ratione nesciunt dolores earum optio ab facere delectus? Obcaecati dolorum alias maxime fugit, laborum nisi dignissimos veritatis voluptatum aut, ex officiis incidunt deleniti labore! Architecto asperiores et reprehenderit blanditiis voluptatum dolore amet tempora, aliquam magni illum. Voluptas pariatur eaque dolore cum tempore blanditiis deleniti molestias odit rerum repellendus. Numquam iusto possimus dignissimos iste fuga voluptatem. Quibusdam temporibus possimus, expedita facere quam dolores harum? Quo ad iste veritatis cumque cupiditate, vel repellendus! Doloremque aliquam unde possimus deleniti qui laborum aspernatur hic.</p>
+          <div className="flex-1">
+            <div className="imgAnimation bg-yellow-500  xl:w-[400px] xl:h-[400px] overflow-hidden rounded-full mx-auto">
+                <img
+                  className="w-80 h-96 mt-5 text-center mx-auto"
+                  src={image}
+                ></img>
+            </div>
           </div>
           {/* right end */}
         </div>
