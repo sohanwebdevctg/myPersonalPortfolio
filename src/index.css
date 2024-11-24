@@ -39,3 +39,9 @@
     -o-transform: translateY(28px);
 }
 }
+
+/* form content start */
+.formCon{
+  box-shadow: 0 7px 7px 7px rgba(13, 110, 253, 0.2);
+}
+/* form content end */
