@@ -7,7 +7,7 @@ const Banner = () => {
     <>
       {/* content section start */}
       <div className="container mx-auto py-10 sm:py-5">
-        <div className="flex flex-col sm:flex-row justify-around sm:justify-between items-center h-full sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen gap-10 sm:gap-5 md:gap-4 lg:gap-6 bg-red-400">
+        <div className="flex flex-col sm:flex-row justify-around sm:justify-between items-center h-full sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen gap-10 sm:gap-5 md:gap-4 lg:gap-6 bg-red-400 relative">
           {/* left start */}
             <div className="w-full sm:w-1/2 bg-blue-400">
               {/* top item */}
@@ -44,6 +44,26 @@ const Banner = () => {
             </div>
           </div>
           {/* right end */}
+          {/* social section start */}
+          
+          <div className="hidden sm:block absolute bottom-0 left-0 w-full">
+              <ul className="flex gap-2 items-center">
+              <li className="text-slate-500 sm:text-xs md:text-sm lg:text-base">Check out my:</li>
+              <li className="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center">
+                <FaFacebookF></FaFacebookF>
+              </li>
+              <li className="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center">
+                <FaTwitter></FaTwitter>
+              </li>
+              <li className="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center">
+                <FaLinkedinIn></FaLinkedinIn>
+              </li>
+              <li className="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center">
+                <FaInstagram></FaInstagram>
+              </li>
+            </ul>
+          </div>
+          {/* social section end */}
         </div>
       </div>
       {/* content section end */}
