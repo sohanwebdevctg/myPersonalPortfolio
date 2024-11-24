@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { FaUserShield } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
@@ -15,7 +14,7 @@ const Navbar = () => {
   // side effect in scrollbar
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      if(window.scrollY > 10){
+      if(window.scrollY > 100){
         setActive(true);
       }else{
         setActive(false);
@@ -30,7 +29,7 @@ const Navbar = () => {
       {/* content section start */}
         {/* desktop section start */}
         <div className="hidden sm:block">
-          <div className="container mx-auto sm:px-8 md:px-10 lg:px-16 xl:px-20 2xl:px-24">
+          <div className="container mx-auto sm:px-8 md:px-10 lg:px-16 xl:px-14 2xl:px-24">
             <div className="flex justify-between items-center h-20">
               {/* logo start */}
               <div><h3 className="sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold  italic"><span className="text-white">Sohan</span><span className="text-yellow-400">Mozumder</span></h3></div>
@@ -114,7 +113,7 @@ const Navbar = () => {
       {/* mobile section start */}
       <div className="block sm:hidden">
           {/* logo and button section start */}
-          <div className={`${active ? 'fixed top-0 right-0 left-0 z-50 shadow-sm shadow-yellow-300 ': 'sticky'} flex justify-between items-center px-6 h-20 bg-black opacity-95`}>
+          <div className={`${active ? 'fixed top-0 right-0 left-0 z-50 shadow-sm shadow-yellow-300 ': 'sticky'} flex justify-between items-center px-6 h-16 bg-black opacity-95`}>
             <div>
             <h3 className="text-base font-bold text-white italic"><span className="text-white">Sohan</span><span className="text-yellow-400">Mozumder</span></h3>
             </div>
