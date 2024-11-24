@@ -14,7 +14,7 @@ const Navbar = () => {
   // side effect in scrollbar
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      if(window.scrollY > 100){
+      if(window.scrollY > 30){
         setActive(true);
       }else{
         setActive(false);
