@@ -1,0 +1,84 @@
+[
+  {
+    "id" : 1,
+    "name" : "Website Development",
+    "description" : ["Custom React.js website development",
+    "Responsive web design (desktop, tablet, mobile optimization)",
+    "Single-page applications (SPA)"]
+  },
+  {
+    "id" : 2,
+    "name" : "UI/UX Implementation",
+    "description" : ["Conversion of UI/UX designs (Figma, Sketch, Adobe XD) into responsive React components",
+    "Creation of custom UI components and libraries",
+    "Material-UI or Tailwind CSS integration"]
+  },
+  {
+    "id" : 3,
+    "name" : "Web Performance Optimization",
+    "description" : ["Optimizing React applications for faster load times",
+    "Code splitting, lazy loading, and tree shaking",
+    "Reducing bundle size and improving Lighthouse scores"]
+  },
+  {
+    "id" : 4,
+    "name" : "Frontend Architecture Design",
+    "description" : ["Scalable component architecture",
+    "State management solutions using Redux, Context API, or Zustand",
+    "Server-side rendering (SSR) with Next.js"]
+  },
+  {
+    "id" : 5,
+    "name" : "Third-party Integrations",
+    "description" : ["Integration with APIs, payment gateways, or analytics tools",
+    "Social media integration (login, sharing, etc.)",
+    "Charting and data visualization tools (Chart.js, D3.js)"]
+  },
+  {
+    "id" : 6,
+    "name" : "Maintenance & Updates",
+    "description" : ["Bug fixes and performance improvements",
+    "Adding new features or modules to existing React applications",
+    "Migrating legacy projects to React"]
+  },
+  {
+    "id" : 7,
+    "name" : "Landing Page Development",
+    "description" : ["Personal and business portfolios",
+    "Landing pages for product launches or marketing campaigns",
+    "Interactive single-page sites"]
+  },
+  {
+    "id" : 8,
+    "name" : "E-commerce Frontend Development",
+    "description" : ["Developing e-commerce store interfaces with React",
+    "Integration with CMSs like Shopify or headless solutions"]
+  },
+  {
+    "id" : 9,
+    "name" : "Dashboard Development",
+    "description" : ["Custom dashboard creation for business analytics",
+    "Role-based access and user management"]
+  },
+  {
+    "id" : 10,
+    "name" : "Progressive Web Applications",
+    "description" : ["Developing React-based PWAs",
+    "Offline functionality and push notifications"
+    ]
+  },
+  {
+    "id" : 11,
+    "name" : "Tailored Services",
+    "description" : ["Custom scrollbar or animations",
+    "SEO-friendly React apps",
+    "Accessibility compliance (WCAG standards)"]
+  },
+  {
+    "id" : 12,
+    "name" : "Code Review and Consultancy",
+    "description" : ["Reviewing and refactoring existing React codebases",
+    "Providing guidance on React best practices and tools",
+    "Setting up development workflows with tools like ESLint, Prettier, and Git"]
+  }
+]

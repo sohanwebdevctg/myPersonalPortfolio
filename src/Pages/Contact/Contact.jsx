@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <>
       {/* content section start */}
-      <div className='container mx-auto h-full sm:h-screen xl:h-screen w-full px-2 py-10'>
+      <div className='container mx-auto h-full sm:h-screen w-full px-2 py-10'>
         <div className="sm:flex sm:justify-around">
           {/* left start */}
           <div className="flex-1 flex flex-col justify-between space-y-5">

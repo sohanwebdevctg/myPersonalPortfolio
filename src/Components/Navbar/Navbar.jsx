@@ -68,7 +68,7 @@ const Navbar = () => {
                           ? "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold text-yellow-500 duration-300"
                           : "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl text-white"
                       }
-                      to="/"
+                      to="/service"
                     >
                       Service
                     </NavLink>
@@ -171,7 +171,7 @@ const Navbar = () => {
                         ? "text-sm text-yellow-500 font-bold"
                         : "text-sm text-white"
                     }
-                    to="/"
+                    to="/service"
                   >
                     Service
                   </NavLink>
