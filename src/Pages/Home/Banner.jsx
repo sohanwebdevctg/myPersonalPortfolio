@@ -7,9 +7,9 @@ const Banner = () => {
     <>
       {/* content section start */}
       <div className="container mx-auto py-10 sm:py-5">
-        <div className="flex flex-col sm:flex-row justify-around sm:justify-between items-center h-full sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen gap-10 sm:gap-5 md:gap-4 lg:gap-6 bg-red-400 relative">
+        <div className="flex flex-col sm:flex-row justify-around sm:justify-between items-center h-full sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen gap-10 sm:gap-5 md:gap-4 lg:gap-6 relative">
           {/* left start */}
-            <div className="w-full sm:w-1/2 bg-blue-400">
+            <div className="w-full sm:w-1/2">
               {/* top item */}
               <span className="text-white font-semibold bg-black shadow-inner shadow-slate-800 py-2 px-3 sm:px-2 xl:px-4 xl:py-2 lg:mb-3 rounded-md text-[10px] sm:text-[8px] md:text-[10px] lg:text-[11px] xl:text-xs 2xl:text-sm inline-block">
                 SOHANWEBDEVCTG
@@ -54,8 +54,8 @@ const Banner = () => {
             </div>
           {/* left end */}
           {/* right start */}
-          <div className="w-full sm:w-1/2 bg-blue-400">
-            <div className="imgAnimation bg-yellow-500 w-64 h-60 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:h-72 lg:w-72 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 overflow-hidden rounded-full mx-auto">
+          <div className="w-full sm:w-1/2">
+            <div className="imgAnimation bg-yellow-500 w-64 h-60 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:h-80 lg:w-80 xl:w-96 xl:h-96 2xl:w-[400px] 2xl:h-[400px] overflow-hidden rounded-full mx-auto">
                 <img
                   className="w-3/4 h-full mt-5 text-center mx-auto"
                   src={image}

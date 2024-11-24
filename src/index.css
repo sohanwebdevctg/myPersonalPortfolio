@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .imgAnimation{
-  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+  box-shadow: 0 7px 7px 7px rgba(13, 110, 253, 0.2);
   animation: animate 5s ease-in-out infinite;
   -webkit-animation: animate 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -32,10 +32,10 @@
     -moz-border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
     -ms-border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
     -o-border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    transform: translateY(30px);
-    -webkit-transform: translateY(30px);
-    -moz-transform: translateY(30px);
-    -ms-transform: translateY(30px);
-    -o-transform: translateY(30px);
+    transform: translateY(28px);
+    -webkit-transform: translateY(28px);
+    -moz-transform: translateY(28px);
+    -ms-transform: translateY(28px);
+    -o-transform: translateY(28px);
 }
 }
