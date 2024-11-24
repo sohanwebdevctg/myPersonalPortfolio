@@ -32,6 +32,25 @@ const Banner = () => {
                 </li>
               </ul>
               {/* top item */}
+              {/* social link */}
+              <div className="block sm:hidden mt-3 h-full">
+                <ul className="flex gap-2 items-center">
+                <li className="text-slate-500 text-sm">Check out my:</li>
+                <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                  <FaFacebookF></FaFacebookF>
+                </li>
+                <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                  <FaTwitter></FaTwitter>
+                </li>
+                <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                  <FaLinkedinIn></FaLinkedinIn>
+                </li>
+                <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                  <FaInstagram></FaInstagram>
+                </li>
+                </ul>
+              </div>
+              {/* social link */}
             </div>
           {/* left end */}
           {/* right start */}
@@ -45,7 +64,6 @@ const Banner = () => {
           </div>
           {/* right end */}
           {/* social section start */}
-          
           <div className="hidden sm:block absolute bottom-0 left-0 w-full">
               <ul className="flex gap-2 items-center">
               <li className="text-slate-500 sm:text-xs md:text-sm lg:text-base">Check out my:</li>
