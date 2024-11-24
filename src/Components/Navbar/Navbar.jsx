@@ -14,7 +14,7 @@ const Navbar = () => {
   // side effect in scrollbar
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      if(window.scrollY > 30){
+      if(window.scrollY > 10){
         setActive(true);
       }else{
         setActive(false);
@@ -28,8 +28,8 @@ const Navbar = () => {
     <>
       {/* content section start */}
         {/* desktop section start */}
-        <div className="hidden sm:block">
-          <div className="container mx-auto sm:px-8 md:px-10 lg:px-16 xl:px-14 2xl:px-24">
+        <div className={` ${active ? 'fixed top-0 right-0 left-0 w-full z-50 bg-black bg-opacity-95 shadow-sm shadow-yellow-300 duration-300 easy-in' : 'hidden sm:block w-full bg-black bg-opacity-95 duration-300 easy-in z-50'} `}>
+          <div className="container mx-auto sm:px-8 md:px-10 lg:px-16 xl:px-14 2xl:px-24 hidden sm:block">
             <div className="flex justify-between items-center h-20">
               {/* logo start */}
               <div><h3 className="sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold  italic"><span className="text-white">Sohan</span><span className="text-yellow-400">Mozumder</span></h3></div>
@@ -113,7 +113,7 @@ const Navbar = () => {
       {/* mobile section start */}
       <div className="block sm:hidden">
           {/* logo and button section start */}
-          <div className={`${active ? 'fixed top-0 right-0 left-0 z-50 shadow-sm shadow-yellow-300 ': 'sticky'} flex justify-between items-center px-6 h-16 bg-black opacity-95`}>
+          <div className={`${active ? 'fixed top-0 right-0 left-0 z-50 shadow-sm shadow-yellow-300': 'sticky'} flex justify-between items-center px-6 h-16 bg-black opacity-95`}>
             <div>
             <h3 className="text-base font-bold text-white italic"><span className="text-white">Sohan</span><span className="text-yellow-400">Mozumder</span></h3>
             </div>
