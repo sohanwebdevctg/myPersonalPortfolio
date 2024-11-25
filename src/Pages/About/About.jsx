@@ -7,7 +7,7 @@ const About = () => {
       {/* content section start */}
         <div className="container mx-auto py-10">
           {/* about and experience start */}
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-5 xl:gap-10">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-5 lg:gap-7 xl:gap-10">
             {/* about start */}
             <div className="w-full sm:w-1/2">
             <h2 className="text-base sm:text-base md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold text-slate-200">
@@ -16,10 +16,10 @@ const About = () => {
               <h2 className="text-[21px] sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-extrabold text-slate-200">
                 Front-end Web Developer
               </h2>
-              <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-base lg:text-lg xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
+              <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-sm lg:text-bage xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
               I started my career as a front-end web developer, which deepened my interest in the field. I love my job and feel very comfortable working in this domain. Currently, I provide my services using the React.js library. Additionally, I am always eager to learn and adapt to new libraries and frameworks.
               </p>
-              <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-base lg:text-lg xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
+              <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
               Hi, my name is Sohan Mozumder. I have been working in the front-end web development industry for 3 years, providing services to a variety of clients. I live in Chattogram, Bangladesh. I completed my Secondary School Certificate (SSC) in 2017 and my Higher Secondary Certificate (HSC) in 2019, graduating from BN School and College. Additionally, I completed a Front-End Web Development program (2021–2023) at Programming Hero.
               </p>
               <ul className="flex gap-2 items-center mt-5">
@@ -40,22 +40,22 @@ const About = () => {
             </div>
             {/* about end */}
             {/* experience start */}
-            <div className="w-full sm:w-1/2 grid grid-cols-2 sm:grid-cols-2 gap-2 xl:gap-5">
-              <div className="bg-yellow-400 py-4 sm:py-6 xl:py-6 text-center space-y-1 rounded-sm">
-                <h3 className="text-xl sm:text-2xl xl:text-4xl font-bold text-white">3+</h3>
-                <p className="text-[10px] sm:text-[11px] xl:text-lg text-gray-500 italic">Years of experience</p>
+            <div className="w-full sm:w-1/2 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-2 sm:gap-3 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6">
+              <div className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+                <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-white">3+</h3>
+                <p className="text-[10px] sm:text-[11px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-gray-500 italic">Years of experience</p>
               </div>
-              <div className="bg-yellow-400 py-4 xl:py-6 text-center space-y-1 rounded-sm">
-                <h3 className="text-xl xl:text-4xl font-bold text-white">3+</h3>
-                <p className="text-[10px] xl:text-lg text-gray-500 italic">Front-end Development</p>
+              <div className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+                <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-white">3+</h3>
+                <p className="text-[10px] sm:text-[11px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-gray-500 italic">Front-end Development</p>
               </div>
-              <div className="bg-yellow-400 py-4 xl:py-6 text-center space-y-1 rounded-sm">
-                <h3 className="text-xl xl:text-4xl font-bold text-white">21+</h3>
-                <p className="text-[10px] xl:text-lg text-gray-500 italic">Happy Customer</p>
+              <div className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+                <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-white">21+</h3>
+                <p className="text-[10px] sm:text-[11px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-gray-500 italic">Happy Customer</p>
               </div>
-              <div className="bg-yellow-400 py-4 xl:py-6 text-center space-y-1 rounded-sm">
-                <h3 className="text-xl xl:text-4xl font-bold text-white">110+</h3>
-                <p className="text-[10px] xl:text-lg text-gray-500 italic">Client Project</p>
+              <div className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+                <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-white">110+</h3>
+                <p className="text-[10px] sm:text-[11px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-gray-500 italic">Client Project</p>
               </div>
             </div>
             {/* experience end */}
