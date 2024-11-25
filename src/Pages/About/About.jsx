@@ -62,23 +62,28 @@ const About = () => {
           </div>
           {/* about and experience end */}
           {/* skill start */}
-          <div className="mt-10">
+          <div className="mt-10 bg-black shadow-inner shadow-slate-800 p-5 sm:p-6 md:p-7 lg:p-8 xl:p-9 2xl:p-10 ">
+            <div className="mb-5">
+            <h2 className="text-lg sm:text-lg md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold text-slate-200">
+                Expert <span className="text-yellow-400">In</span>
+              </h2>
+            </div>
             <ul className="space-y-6 xl:space-y-10">
-              <li className="h-4 bg-slate-100 rounded-lg flex items-center">
-                <span className="bg-yellow-500 h-4 rounded-lg w-[80%] flex items-center justify-center text-xs text-black">HTML</span>
-                <span className=" w-[20%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-8 h-8 z-50 border-[1px] border-yellow-400 text-[10px] xl:text-sm -ml-3">80%</span></span>
+              <li className="h-3 bg-slate-200 rounded-lg flex items-center">
+                <span className="bg-yellow-500 h-3 rounded-lg w-[80%] flex items-center justify-center text-[10px] text-black">HTML</span>
+                <span className=" w-[20%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 border-[1px] border-yellow-400 text-[10px] -ml-3">80%</span></span>
               </li>
-              <li className="h-4 bg-slate-100 rounded-lg flex items-center">
-                <span className="bg-yellow-500 h-4 rounded-lg w-[70%] flex items-center justify-center text-xs text-black">CSS</span>
-                <span className=" w-[30%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-8 h-8 z-50 border-[1px] border-yellow-400 text-[10px] xl:text-sm -ml-3">70%</span></span>
+              <li className="h-3 bg-slate-200 rounded-lg flex items-center">
+                <span className="bg-yellow-500 h-3 rounded-lg w-[70%] flex items-center justify-center text-[10px] text-black">CSS</span>
+                <span className=" w-[30%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 border-[1px] border-yellow-400 text-[10px] -ml-3">70%</span></span>
               </li>
-              <li className="h-4 bg-slate-100 rounded-lg flex items-center">
-                <span className="bg-yellow-500 h-4 rounded-lg w-[60%] flex items-center justify-center text-xs text-black">JavaScript</span>
-                <span className=" w-[40%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-8 h-8 z-50 border-[1px] border-yellow-400 text-[10px] xl:text-sm -ml-3">60%</span></span>
+              <li className="h-3 bg-slate-200 rounded-lg flex items-center">
+                <span className="bg-yellow-500 h-3 rounded-lg w-[60%] flex items-center justify-center text-[10px] text-black">JavaScript</span>
+                <span className=" w-[40%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 border-[1px] border-yellow-400 text-[10px] -ml-3">60%</span></span>
               </li>
-              <li className="h-3 xl:h-4 bg-slate-100 rounded-lg flex items-center">
-                <span className="bg-yellow-500 h-3 xl:h-4 rounded-lg w-[70%] flex items-center justify-center text-[10px] xl:text-xs text-black">React</span>
-                <span className=" w-[30%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-8 h-8 z-50 border-[1px] border-yellow-400 text-[10px] xl:text-sm -ml-3">70%</span></span>
+              <li className="h-3 bg-slate-200 rounded-lg flex items-center">
+                <span className="bg-yellow-500 h-3 rounded-lg w-[70%] flex items-center justify-center text-[10px] text-black">React</span>
+                <span className=" w-[30%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 border-[1px] border-yellow-400 text-[10px] -ml-3">30%</span></span>
               </li>
             </ul>
           </div>
