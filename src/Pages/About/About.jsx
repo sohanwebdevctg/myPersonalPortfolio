@@ -7,7 +7,7 @@ const About = () => {
       {/* content section start */}
         <div className="container mx-auto py-10">
           {/* about and experience start */}
-          <div className="flex flex-col sm:flex-row justify-between items-center xl:gap-10">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-5 xl:gap-10">
             {/* about start */}
             <div className="w-full sm:w-1/2">
             <h2 className="text-base sm:text-base md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold text-slate-200">
@@ -40,8 +40,23 @@ const About = () => {
             </div>
             {/* about end */}
             {/* experience start */}
-            <div className="w-full sm:w-1/2">
-
+            <div className="w-full sm:w-1/2 grid grid-cols-2 sm:grid-cols-2 gap-2 xl:gap-5">
+              <div className="bg-yellow-400 py-4 sm:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+                <h3 className="text-xl sm:text-2xl xl:text-4xl font-bold text-white">3+</h3>
+                <p className="text-[10px] sm:text-[11px] xl:text-lg text-gray-500 italic">Years of experience</p>
+              </div>
+              <div className="bg-yellow-400 py-4 xl:py-6 text-center space-y-1 rounded-sm">
+                <h3 className="text-xl xl:text-4xl font-bold text-white">3+</h3>
+                <p className="text-[10px] xl:text-lg text-gray-500 italic">Front-end Development</p>
+              </div>
+              <div className="bg-yellow-400 py-4 xl:py-6 text-center space-y-1 rounded-sm">
+                <h3 className="text-xl xl:text-4xl font-bold text-white">21+</h3>
+                <p className="text-[10px] xl:text-lg text-gray-500 italic">Happy Customer</p>
+              </div>
+              <div className="bg-yellow-400 py-4 xl:py-6 text-center space-y-1 rounded-sm">
+                <h3 className="text-xl xl:text-4xl font-bold text-white">110+</h3>
+                <p className="text-[10px] xl:text-lg text-gray-500 italic">Client Project</p>
+              </div>
             </div>
             {/* experience end */}
 
