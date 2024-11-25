@@ -1,0 +1,32 @@
+[
+  {
+    "id" : 1,
+    "projectType" : "html/css",
+    "projectName" : "project 1",
+    "image" : "../html1.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "live link",
+    "codeLink": "code link"
+  },
+  {
+    "id" : 2,
+    "projectType" : "html/css",
+    "projectName" : "project 2",
+    "image" : "../html2.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "live link",
+    "codeLink": "code link"
+  },
+  {
+    "id" : 3,
+    "projectType" : "html/css",
+    "projectName" : "project 3",
+    "image" : "../html3.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "live link",
+    "codeLink": "code link"
+  }
+]

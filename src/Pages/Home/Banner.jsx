@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import image from '../../../public/image4.png';
+import image from '../../../public/image.png';
 
 
 const Banner = () => {
