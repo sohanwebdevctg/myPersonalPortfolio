@@ -59,10 +59,29 @@ const About = () => {
               </div>
             </div>
             {/* experience end */}
-
           </div>
           {/* about and experience end */}
           {/* skill start */}
+          <div className="mt-10">
+            <ul className="space-y-6 xl:space-y-10">
+              <li className="h-4 bg-slate-100 rounded-lg flex items-center">
+                <span className="bg-yellow-500 h-4 rounded-lg w-[80%] flex items-center justify-center text-xs text-black">HTML</span>
+                <span className=" w-[20%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-8 h-8 z-50 border-[1px] border-yellow-400 text-[10px] xl:text-sm -ml-3">80%</span></span>
+              </li>
+              <li className="h-4 bg-slate-100 rounded-lg flex items-center">
+                <span className="bg-yellow-500 h-4 rounded-lg w-[70%] flex items-center justify-center text-xs text-black">CSS</span>
+                <span className=" w-[30%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-8 h-8 z-50 border-[1px] border-yellow-400 text-[10px] xl:text-sm -ml-3">70%</span></span>
+              </li>
+              <li className="h-4 bg-slate-100 rounded-lg flex items-center">
+                <span className="bg-yellow-500 h-4 rounded-lg w-[60%] flex items-center justify-center text-xs text-black">JavaScript</span>
+                <span className=" w-[40%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-8 h-8 z-50 border-[1px] border-yellow-400 text-[10px] xl:text-sm -ml-3">60%</span></span>
+              </li>
+              <li className="h-3 xl:h-4 bg-slate-100 rounded-lg flex items-center">
+                <span className="bg-yellow-500 h-3 xl:h-4 rounded-lg w-[70%] flex items-center justify-center text-[10px] xl:text-xs text-black">React</span>
+                <span className=" w-[30%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-8 h-8 z-50 border-[1px] border-yellow-400 text-[10px] xl:text-sm -ml-3">70%</span></span>
+              </li>
+            </ul>
+          </div>
           {/* skill end */}
         </div>
       {/* content section end */}
