@@ -5,7 +5,7 @@ import Navbar from "../Components/Navbar/Navbar";
 
 const MainLayout = () => {
   return (
-    <div className="bg-black opacity-95 ">
+    <div className="bg-black opacity-95">
       {/* navbar section start */}
       <Navbar></Navbar>
       {/* navbar section end */}
