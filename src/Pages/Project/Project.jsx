@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 const Project = () => {
@@ -64,15 +65,15 @@ const Project = () => {
               {/* top end */}
               {/* bottom start */}
               <div className="p-3 sm:p-3 md:p-3 lg:p-4 xl:p-5 2xl:p-6 space-y-2">
-                <h3 className="text-yellow-400 font-bold text-base sm:text-base md:text-lg lg:text-[19px] xl:text-xl 2xl:text-2xl">{data.projectName}</h3>
+                <h3 className="text-yellow-400 font-bold text-base sm:text-base md:text-lg lg:text-[19px] xl:text-xl 2xl:text-2xl">Feature</h3>
                 <ul className="space-y-1">{data.feature.map((item, index) =>   <li key={index} className="text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-[13px] 2xl:text-sm text-gray-500 text-justify">{++index + '.'} {item}</li>)}</ul>
               </div>
               {/* bottom end */}
               {/* link section start */}
               <div className="p-3 sm:p-3 md:p-3 lg:p-4 xl:p-5 2xl:p-6">
                 <ul className="flex justify-between items-center">
-                  <li><button className="btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Code Link</button></li>
-                  <li><button className="btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Live Link</button></li>
+                  <li><Link to={data.codeLink}><button className="btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Code Link</button></Link></li>
+                  <li><Link to={data.liveLink}><button className="btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Live Link</button></Link></li>
                 </ul>
               </div>
               {/* link section end */}

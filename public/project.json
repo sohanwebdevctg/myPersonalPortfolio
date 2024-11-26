@@ -2,30 +2,30 @@
   {
     "id" : 1,
     "projectType" : "html/css",
-    "projectName" : "project 1",
+    "projectName" : "CoffeeHouse",
     "image" : "../html1.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. ",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "This project highlights the demand for different types of coffee, shows the quality and price of the coffees, and also shows what types of coffee are available.",
+    "feature" : ["Here you can see different types of coffee according to the type of coffee.", "User coffee orders can be taken through authentication.", "Those who apply online may be given the opportunity to send money through mobile banking."],
     "liveLink": "https://magical-dusk-e9db7d.netlify.app",
-    "codeLink": "https://github.com/sohanwebdevctg/html1-coffeeHouse-project)"
+    "codeLink": "https://github.com/sohanwebdevctg/html1-coffeeHouse-project"
   },
   {
     "id" : 2,
     "projectType" : "html/css",
-    "projectName" : "project 2",
+    "projectName" : "RentRide",
     "image" : "../html2.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "This project is basically a website for renting various types of cars where you can find various types of small and large cars according to your needs. You can rent the cars for a specific period of time.",
+    "feature" : ["Here, customers can be given benefits on a monthly basis.", "The software can provide the facility of renting a car from any location.", "Online payment methods can be provided to those who will be regular customers."],
     "liveLink": "https://stunning-twilight-eb22c1.netlify.app",
     "codeLink": "https://github.com/sohanwebdevctg/html2-rentRide-project"
   },
   {
     "id" : 3,
     "projectType" : "html/css",
-    "projectName" : "project 3",
+    "projectName" : "SweetHome",
     "image" : "../html3.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "This website is mainly used as a medium for buying and selling various types of Lasteria flats and houses. Here, the buyer can view and purchase the house of his choice according to his needs or he can rent it for a certain period of time.",
+    "feature" : ["User will be able to see money management and total costs.", "User can add online payment methods.", "User can sell the house to someone else or give it away."],
     "liveLink": "https://sensational-bonbon-ace59c.netlify.app",
     "codeLink": "https://github.com/sohanwebdevctg/html3-sweetHome-project"
   },
@@ -33,7 +33,7 @@
   {
     "id" : 4,
     "projectType" : "javaScript/dom",
-    "projectName" : "project 4",
+    "projectName" : "To Do List",
     "image" : "../dome1.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
@@ -43,7 +43,7 @@
   {
     "id" : 5,
     "projectType" : "javaScript/dom",
-    "projectName" : "project 5",
+    "projectName" : "Restaurant Tips",
     "image" : "../dome2.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
@@ -53,7 +53,7 @@
   {
     "id" : 6,
     "projectType" : "javaScript/dom",
-    "projectName" : "project 5",
+    "projectName" : "Pc Builder",
     "image" : "../dome3.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
@@ -63,7 +63,7 @@
   {
     "id" : 7,
     "projectType" : "javaScript/dom",
-    "projectName" : "project 5",
+    "projectName" : "Saving Amount",
     "image" : "../dome4.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
@@ -74,7 +74,7 @@
   {
     "id" : 8,
     "projectType" : "react",
-    "projectName" : "project 5",
+    "projectName" : "SofHouse",
     "image" : "../react1.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
@@ -84,7 +84,7 @@
   {
     "id" : 9,
     "projectType" : "react",
-    "projectName" : "project 5",
+    "projectName" : "DreamBooks",
     "image" : "../react2.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
@@ -94,7 +94,7 @@
   {
     "id" : 10,
     "projectType" : "react",
-    "projectName" : "project 5",
+    "projectName" : "E-commerce",
     "image" : "../react3.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
@@ -104,7 +104,7 @@
   {
     "id" : 11,
     "projectType" : "react",
-    "projectName" : "project 5",
+    "projectName" : "Retail POS",
     "image" : "../react4.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
