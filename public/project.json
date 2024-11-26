@@ -35,8 +35,8 @@
     "projectType" : "javaScript/dom",
     "projectName" : "To Do List",
     "image" : "../dome1.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "Here, basically the user can add their data in the form of a listing one by one and to delete any data, they have to select it and delete it. This is basically a to-do list.",
+    "feature" : ["Here, user-specific data can be added and brought in.", "Can't be deleted without authentication can also be added.", "It can also be used in management systems."],
     "liveLink": "https://sohanwebdevctg.github.io/dom1-to-do-list/",
     "codeLink": "https://github.com/sohanwebdevctg/dom1-to-do-list"
   },
@@ -45,8 +45,8 @@
     "projectType" : "javaScript/dom",
     "projectName" : "Restaurant Tips",
     "image" : "../dome2.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "It is basically a restaurant management system software where the user's expenses are determined based on the food they eat.",
+    "feature" : ["Bill payment service can also be brought here through cards.", "Separate services can be added for regular customers.", "Food quality feedback can also be added here."],
     "liveLink": "https://sohanwebdevctg.github.io/dom2-restaurant-tips-calculator",
     "codeLink": "https://github.com/sohanwebdevctg/dom2-restaurant-tips-calculator"
   },
@@ -55,8 +55,8 @@
     "projectType" : "javaScript/dom",
     "projectName" : "Pc Builder",
     "image" : "../dome3.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "It is basically a dashboard management system where a user is shown how many products a user has purchased, the price of that product, and the total cost in the form of a cash memo.",
+    "feature" : ["Card payment system can be brought here", "Some more benefits can be added for regular buyers.", "More variants of a product can be added."],
     "liveLink": "https://sohanwebdevctg.github.io/dom3-pc-building",
     "codeLink": "https://github.com/sohanwebdevctg/dom3-pc-building"
   },
@@ -65,8 +65,8 @@
     "projectType" : "javaScript/dom",
     "projectName" : "Saving Amount",
     "image" : "../dome4.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "It is basically a savings software that keeps track of a person's daily life accounts and expenses, allowing them to keep track of their specific expenses.",
+    "feature" : ["This software can be integrated into banking services.", "Here the user can add a table to view his daily expenses in table form.", "In case of unexpected expenses, the facility can also be provided so that they do not become a burden in the future."],
     "liveLink": "https://sohanwebdevctg.github.io/dom4-saving-amount",
     "codeLink": "https://github.com/sohanwebdevctg/dom4-saving-amount"
   },
@@ -76,8 +76,8 @@
     "projectType" : "react",
     "projectName" : "SofHouse",
     "image" : "../react1.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "The name of this project is Software House.This technology basically shows the website of a software company which contains the company's marketing system.Through this website, a service recipient will be able to decide what kind of service he needs and will be able to negotiate or contract with the company according to that service.",
+    "feature" : ["All users can be given an idea about new technologies through this website.", "He can decide from this website what kind of futures would be best for him.", "Through this website, a user can express their opinion about its advantages and disadvantages."],
     "liveLink": "https://vocal-bublanina-c240e4.netlify.app",
     "codeLink": "https://github.com/sohanwebdevctg/software-house"
   },
@@ -86,8 +86,8 @@
     "projectType" : "react",
     "projectName" : "DreamBooks",
     "image" : "../react2.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "This project is basically a single page DreamBooks website. This website sells children's story books, which contain various types of stories and are divided into different categories.The items bought and sold here.If a user purchases a book, it is shown on their card table and from there they can purchase that book along with other books. The same book cannot be purchased repeatedly.",
+    "feature" : ["Online payment gateway system can be added here", "User reviews can be added based on the book.", "Online e-book system can also be added here."],
     "liveLink": "https://joyful-sopapillas-90f3c9.netlify.app",
     "codeLink": "https://github.com/sohanwebdevctg/react2-dream-books-website"
   },
@@ -96,8 +96,8 @@
     "projectType" : "react",
     "projectName" : "E-commerce",
     "image" : "../react3.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "This project is basically a single page e-commerce website. This website sells women's cosmetics, clothes, electronics products and Other things too.The items bought and sold here.To purchase a product here, the user must be authenticated. Moreover, the user will not be able to purchase any product. After purchasing the product, the product will be added to his card, and then from there, he will be able to purchase the product after verification.",
+    "feature" : ["Here the user can give his feedback on any product.", "Benefits may be given for any full purchase made through someone else.", "A management system or CMS can be added to store user data."],
     "liveLink": "https://deft-meringue-fafba7.netlify.app",
     "codeLink": "https://github.com/sohanwebdevctg/react1-single-page-ecommerce-website"
   },
@@ -106,8 +106,8 @@
     "projectType" : "react",
     "projectName" : "Retail POS",
     "image" : "../react4.png",
-    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
-    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "details" : "This project is basically a single page office-management retail POS system. In this project, office officials or employees will be able to order the daily necessities of their office through this dashboard. Here, officials or employees will order the product they need on the dashboard from their admin. If the admin approves the product, he will receive that product. If he does not approve or deletes it, that product request will not be considered approved.",
+    "feature" : ["Mobile banking services or services provided through cards can be added here.", "That benefit can be added to use a product in multiple services.", "Features like feedback or comments can be added here."],
     "liveLink": "https://creative-axolotl-782f50.netlify.app/login",
     "codeLink": "https://github.com/sohanwebdevctg/react4-office-management-retail-pos-system"
   }
