@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 const Project = () => {
 
+  // all state function data
   const [previous, setPrevious] = useState([]);
   const [allProject, setAllProject] = useState([]);
   const [tabs, setTabs] = useState([]);

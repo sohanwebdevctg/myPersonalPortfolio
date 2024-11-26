@@ -6,8 +6,8 @@
     "image" : "../html1.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. ",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
-    "liveLink": "live link",
-    "codeLink": "code link"
+    "liveLink": "https://magical-dusk-e9db7d.netlify.app",
+    "codeLink": "https://github.com/sohanwebdevctg/html1-coffeeHouse-project)"
   },
   {
     "id" : 2,
@@ -16,8 +16,8 @@
     "image" : "../html2.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
-    "liveLink": "live link",
-    "codeLink": "code link"
+    "liveLink": "https://stunning-twilight-eb22c1.netlify.app",
+    "codeLink": "https://github.com/sohanwebdevctg/html2-rentRide-project"
   },
   {
     "id" : 3,
@@ -26,27 +26,89 @@
     "image" : "../html3.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
-    "liveLink": "live link",
-    "codeLink": "code link"
+    "liveLink": "https://sensational-bonbon-ace59c.netlify.app",
+    "codeLink": "https://github.com/sohanwebdevctg/html3-sweetHome-project"
   },
+
   {
     "id" : 4,
     "projectType" : "javaScript/dom",
     "projectName" : "project 4",
-    "image" : "../html3.png",
+    "image" : "../dome1.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
-    "liveLink": "live link",
-    "codeLink": "code link"
+    "liveLink": "https://sohanwebdevctg.github.io/dom1-to-do-list/",
+    "codeLink": "https://github.com/sohanwebdevctg/dom1-to-do-list"
   },
   {
-    "id" : 4,
-    "projectType" : "react",
+    "id" : 5,
+    "projectType" : "javaScript/dom",
     "projectName" : "project 5",
-    "image" : "../html3.png",
+    "image" : "../dome2.png",
     "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
     "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
-    "liveLink": "live link",
-    "codeLink": "code link"
+    "liveLink": "https://sohanwebdevctg.github.io/dom2-restaurant-tips-calculator",
+    "codeLink": "https://github.com/sohanwebdevctg/dom2-restaurant-tips-calculator"
+  },
+  {
+    "id" : 6,
+    "projectType" : "javaScript/dom",
+    "projectName" : "project 5",
+    "image" : "../dome3.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "https://sohanwebdevctg.github.io/dom3-pc-building",
+    "codeLink": "https://github.com/sohanwebdevctg/dom3-pc-building"
+  },
+  {
+    "id" : 7,
+    "projectType" : "javaScript/dom",
+    "projectName" : "project 5",
+    "image" : "../dome4.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "https://sohanwebdevctg.github.io/dom4-saving-amount",
+    "codeLink": "https://github.com/sohanwebdevctg/dom4-saving-amount"
+  },
+
+  {
+    "id" : 8,
+    "projectType" : "react",
+    "projectName" : "project 5",
+    "image" : "../react1.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "https://vocal-bublanina-c240e4.netlify.app",
+    "codeLink": "https://github.com/sohanwebdevctg/software-house"
+  },
+  {
+    "id" : 9,
+    "projectType" : "react",
+    "projectName" : "project 5",
+    "image" : "../react2.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "https://joyful-sopapillas-90f3c9.netlify.app",
+    "codeLink": "https://github.com/sohanwebdevctg/react2-dream-books-website"
+  },
+  {
+    "id" : 10,
+    "projectType" : "react",
+    "projectName" : "project 5",
+    "image" : "../react3.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "https://deft-meringue-fafba7.netlify.app",
+    "codeLink": "https://github.com/sohanwebdevctg/react1-single-page-ecommerce-website"
+  },
+  {
+    "id" : 11,
+    "projectType" : "react",
+    "projectName" : "project 5",
+    "image" : "../react4.png",
+    "details" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt",
+    "feature" : ["Dolorem quibusdam necessitatibus voluptatem suscipit", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt", "Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt"],
+    "liveLink": "https://creative-axolotl-782f50.netlify.app/login",
+    "codeLink": "https://github.com/sohanwebdevctg/react4-office-management-retail-pos-system"
   }
 ]
