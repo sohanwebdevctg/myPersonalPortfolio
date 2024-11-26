@@ -4,13 +4,23 @@ import { useEffect } from "react";
 
 const Project = () => {
 
-  const [allProject, setAllProject] = useState([])
+  const [allProject, setAllProject] = useState([]);
+  const [tabs, setTabs] = useState([]);
 
   useEffect(() => {
     fetch('project.json')
     .then((res) => res.json())
-    .then((data) => setAllProject(data))
+    .then((data) => {
+      const html = data.filter((item) => item.projectType === 'html/css')
+      setAllProject(html)
+    })
   },[])
+
+  // tabs
+  const buttonFun = (data) => {
+    const selectedTab = allProject.filter((item) => item.projectType === data)
+    setTabs(selectedTab)
+  }
 
 
   return (
@@ -26,16 +36,16 @@ const Project = () => {
           {/* title end */}
           {/* button start */}
           <ul className=" flex items-center gap-5 sm:gap-3 md:gap-3 lg:gap-4">
-            <li><button className="btn btn-xs md:btn-xs lg:btn-sm xl:btn-sm w-16 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-40 text-white rounded-sm bg-yellow-400 hover:bg-yellow-400 text-[8px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">HTML/CSS</button></li>
-            <li><button className="btn btn-xs md:btn-xs lg:btn-sm xl:btn-sm w-16 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-40 text-white rounded-sm bg-yellow-400 hover:bg-yellow-400 text-[8px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">JavaScript/DOM</button></li>
-            <li><button className="btn btn-xs md:btn-xs lg:btn-sm xl:btn-sm w-16 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-40 text-white rounded-sm bg-yellow-400 hover:bg-yellow-400 text-[8px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">REACT</button></li>
+            <li><button onClick={() => buttonFun('html/css')} className="btn btn-xs md:btn-xs lg:btn-sm xl:btn-sm w-16 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-40 text-white rounded-sm bg-yellow-400 hover:bg-yellow-400 text-[8px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">HTML/CSS</button></li>
+            <li><button onClick={() => buttonFun('javaScript/dom')} className="btn btn-xs md:btn-xs lg:btn-sm xl:btn-sm w-16 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-40 text-white rounded-sm bg-yellow-400 hover:bg-yellow-400 text-[8px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">JavaScript/DOM</button></li>
+            <li><button onClick={() => buttonFun('react')} className="btn btn-xs md:btn-xs lg:btn-sm xl:btn-sm w-16 sm:w-20 md:w-24 lg:w-28 xl:w-36 2xl:w-40 text-white rounded-sm bg-yellow-400 hover:bg-yellow-400 text-[8px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base">REACT</button></li>
           </ul>
           {/* button end */}
         </div>
           {/* content start */}
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-5 sm:gap-4 md:gap-5 lg:gap-5 xl:gap-6 2xl:gap-7 mt-10">
             {
-              allProject.map((data, index) => <div key={index} className="flex flex-col justify-between projectCon">
+              (tabs.length > 0 ? tabs : allProject).map((data, index) => <div key={index} className="flex flex-col justify-between projectCon">
               {/* image start */}
               <div className="h-64 xl:h-72 2xl:h-72 projectImg overflow-hidden">
                 <img src={data.image}></img>
