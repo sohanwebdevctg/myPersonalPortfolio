@@ -13,10 +13,7 @@ const ErrorPage = () => {
   // navigate function btn
   const backPageBtn = () => {
     navigation(-1)
-  }
-
-
-
+  };
 
   return (
 <>
