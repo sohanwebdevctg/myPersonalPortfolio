@@ -72,3 +72,9 @@
   object-position: bottom center;
 }
 /* projectImg content end */
+
+/* project content start */
+.projectCon{
+  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+}
+/* project content end */

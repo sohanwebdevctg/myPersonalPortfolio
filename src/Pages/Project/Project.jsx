@@ -20,7 +20,7 @@ const Project = () => {
         <div className="flex flex-col sm:flex-row justify-between  bg-black shadow-inner shadow-slate-600 p-5 gap-2 xl:gap-10">
           {/* title start */}
           <div>
-            <h2 className="text-lg sm:text-lg md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold text-slate-200">Expert <span className="text-yellow-400">In</span>
+            <h2 className="text-lg sm:text-lg md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold text-slate-200">My <span className="text-yellow-400">Project</span>
             </h2>
           </div>
           {/* title end */}
@@ -35,13 +35,34 @@ const Project = () => {
           {/* content start */}
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-5 sm:gap-4 md:gap-5 lg:gap-5 xl:gap-6 2xl:gap-7 mt-10">
             {
-              allProject.map((data, index) => <div key={index} className="bg-blue-400">
+              allProject.map((data, index) => <div key={index} className="flex flex-col justify-between projectCon">
+              {/* image start */}
               <div className="h-64 xl:h-72 2xl:h-72 projectImg overflow-hidden">
                 <img src={data.image}></img>
               </div>
-              <div>
-                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ducimus repellendus aperiam commodi! Ullam ipsam nesciunt culpa nihil laborum cumque officiis, inventore saepe officia dolore modi porro magni error ipsum quis hic? Harum dolor dicta inventore. Praesentium, reprehenderit. Dolorem quibusdam necessitatibus voluptatem suscipit rerum blanditiis veniam numquam tempore deserunt! Nihil dolores tempora delectus libero repudiandae aliquid tenetur minus unde corrupti est, nesciunt nemo sit ipsam dolore modi. Nemo molestiae ipsum numquam?</p>
+              {/* image end */}
+                {/* top start */}
+              <div className="xl:p-5">
+                <div className="xl:space-y-2">
+                  <h3 className="text-yellow-400 font-bold xl:text-xl">{data.projectName}</h3>
+                  <p className="xl:text-[13px] text-gray-500">{data.details}</p>
+                </div>
               </div>
+              {/* top end */}
+              {/* bottom start */}
+              <div className="xl:p-5 xl:space-y-2">
+              <h3 className="text-yellow-400 font-bold xl:text-xl">{data.projectName}</h3>
+              <ul className="space-y-1 ">{data.feature.map((item, index) => <li key={index} className="xl:text-[13px] text-gray-500">{++index + '.'} {item}</li>)}</ul>
+              </div>
+              {/* bottom end */}
+              {/* link section start */}
+              <div className="xl:p-5">
+                <ul className="flex justify-between items-center">
+                  <li><button className="btn btn-xs xl:text-sm hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Code Link</button></li>
+                  <li><button className="btn btn-xs xl:text-sm hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Live Link</button></li>
+                </ul>
+              </div>
+              {/* link section end */}
             </div>)
             }
             
