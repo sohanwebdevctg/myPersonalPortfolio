@@ -1,5 +1,6 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import image from '../../../public/image.png';
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -27,27 +28,29 @@ const Banner = () => {
                 <li className="text-[10px] sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 bg-yellow-500 text-white font-bold rounded-md">
                   My Resume
                 </li>
-                <li className="text-[10px] sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 rounded-md bg-black shadow-sm shadow-white hover:shadow-yellow-500 duration-300 text-white font-bold">
-                  Hire Me
+                <Link to="/contact">
+                <li className="text-[10px] sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 rounded-md bg-black shadow-sm shadow-white hover:shadow-yellow-500 duration-300 text-white font-bold">Hire Me
+                  
                 </li>
+                </Link>
               </ul>
               {/* top item */}
               {/* social link */}
               <div className="block sm:hidden mt-3 h-full">
                 <ul className="flex gap-2 items-center">
-                <li className="text-slate-500 text-sm">Check out my:</li>
-                <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                  <li className="text-slate-500 text-sm">Check out my:</li>
+                  <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
                   <FaFacebookF></FaFacebookF>
-                </li>
-                <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
-                  <FaTwitter></FaTwitter>
-                </li>
-                <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
-                  <FaLinkedinIn></FaLinkedinIn>
-                </li>
-                <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
-                  <FaInstagram></FaInstagram>
-                </li>
+                  </li>
+                  <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                    <FaTwitter></FaTwitter>
+                  </li>
+                  <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                    <FaLinkedinIn></FaLinkedinIn>
+                  </li>
+                  <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                    <FaInstagram></FaInstagram>
+                  </li>
                 </ul>
               </div>
               {/* social link */}
