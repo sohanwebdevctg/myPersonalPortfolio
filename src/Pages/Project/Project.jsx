@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Title from "../../Components/Title/Title";
+import Loading from "../../Components/Loading/Loading";
 
 
 const Project = () => {
@@ -10,21 +11,31 @@ const Project = () => {
   const [previous, setPrevious] = useState([]);
   const [allProject, setAllProject] = useState([]);
   const [tabs, setTabs] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     fetch('project.json')
     .then((res) => res.json())
     .then((data) => {
+      setLoading(true);
       const html = data.filter((item) => item.projectType === 'html/css');
       setAllProject(html);
       setPrevious(data);
+      setLoading(false);
     });
   },[]);
 
   // tabs
   const buttonFun = (data) => {
+    setLoading(true);
     const selectedTab = previous.filter((item) => item.projectType === data);
     setTabs(selectedTab);
+    setLoading(false);
+  }
+
+  //loading data
+  if(loading){
+    return <Loading></Loading>
   }
 
 
