@@ -8,7 +8,7 @@ import Title from "../../Components/Title/Title";
 const Contact = () => {
 
   const contactForm = (event) => {
-    event.preventDefault()
+    event.preventDefault();
   }
 
 
@@ -18,12 +18,12 @@ const Contact = () => {
         <Title name={'Contact'}></Title>
     {/* title section end */}
       {/* content section start */}
-      <div className='container mx-auto h-full sm:h-screen w-full px-2 py-10'>
-        <div className="sm:flex sm:justify-around">
+      <div className='container mx-auto py-10 sm:py-10'>
+        <div className="flex flex-col sm:flex-row justify-around sm:justify-between items-center h-full sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen gap-10 sm:gap-2 md:gap-2 lg:gap-3 xl:gap-4 2xl:gap-5">
           {/* left start */}
-          <div className="flex-1 flex flex-col justify-between space-y-5">
+          <div className="w-full sm:w-1/2 flex flex-col justify-around h-full gap-6 sm:gap-0 xl:gap-6 2xl:gap-5">
             <h3 className="text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-5xl 2xl:text-5xl text-white">Let's talk <br></br>on something <span className="text-yellow-400">great</span> <br></br>together</h3>
-            <ul className="space-y-3 sm:space-y-5 xl:space-y-7">
+            <ul className="space-y-3 sm:space-y-5 md:space-y-6 xl:space-y-7">
               <li className="flex gap-1 sm:gap-2 xl:gap-3 items-center">
                 <BsFillTelephoneFill className="bg-black shadow-inner shadow-slate-800 text-[22px] md:text-[24px] lg:text-[27px] xl:text-3xl 2xl:text-4xl rounded-full p-1 xl:p-2 text-yellow-400"></BsFillTelephoneFill>
                 <span className="text-sm sm:text-xs md:text-[15px] lg:text-base xl:text-base 2xl:text-lg text-white">+880 168107 5783</span>
@@ -57,7 +57,7 @@ const Contact = () => {
           </div>
           {/* left end */}
           {/* right start */}
-          <div className="flex-1 mt-10 sm:mt-0">
+          <div className="w-full sm:w-1/2">
             <form onSubmit={contactForm} className="formCon bg-yellow-400 p-4 xl:p-8 space-y-3 sm:space-y-3 xl:space-y-5 rounded-md">
               <div>
                 <h1 className="text-lg sm:text-lg md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold">Send Message</h1>
