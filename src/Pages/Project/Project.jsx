@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 const Project = () => {
 
+  const [previous, setPrevious] = useState([]);
   const [allProject, setAllProject] = useState([]);
   const [tabs, setTabs] = useState([]);
 
@@ -11,15 +12,16 @@ const Project = () => {
     fetch('project.json')
     .then((res) => res.json())
     .then((data) => {
-      const html = data.filter((item) => item.projectType === 'html/css')
-      setAllProject(html)
-    })
-  },[])
+      const html = data.filter((item) => item.projectType === 'html/css');
+      setAllProject(html);
+      setPrevious(data);
+    });
+  },[]);
 
   // tabs
   const buttonFun = (data) => {
-    const selectedTab = allProject.filter((item) => item.projectType === data)
-    setTabs(selectedTab)
+    const selectedTab = previous.filter((item) => item.projectType === data);
+    setTabs(selectedTab);
   }
 
 
@@ -43,33 +45,33 @@ const Project = () => {
           {/* button end */}
         </div>
           {/* content start */}
-          <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-5 sm:gap-4 md:gap-5 lg:gap-5 xl:gap-6 2xl:gap-7 mt-10">
+          <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-5 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-6 2xl:gap-7 mt-10">
             {
               (tabs.length > 0 ? tabs : allProject).map((data, index) => <div key={index} className="flex flex-col justify-between projectCon">
               {/* image start */}
-              <div className="h-64 xl:h-72 2xl:h-72 projectImg overflow-hidden">
+              <div className="h-64 xl:h-72 2xl:h-80 projectImg overflow-hidden">
                 <img src={data.image}></img>
               </div>
               {/* image end */}
                 {/* top start */}
-              <div className="xl:p-5">
-                <div className="xl:space-y-2">
-                  <h3 className="text-yellow-400 font-bold xl:text-xl">{data.projectName}</h3>
-                  <p className="xl:text-[13px] text-gray-500">{data.details}</p>
+              <div className="p-3 sm:p-3 md:p-3 lg:p-4 xl:p-5 2xl:p-6">
+                <div className="space-y-2">
+                  <h3 className="text-yellow-400 font-bold text-base sm:text-base md:text-lg lg:text-[19px] xl:text-xl 2xl:text-2xl">{data.projectName}</h3>
+                  <p className="text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-[13px] 2xl:text-sm text-gray-500 text-justify">{data.details}</p>
                 </div>
               </div>
               {/* top end */}
               {/* bottom start */}
-              <div className="xl:p-5 xl:space-y-2">
-              <h3 className="text-yellow-400 font-bold xl:text-xl">{data.projectName}</h3>
-              <ul className="space-y-1 ">{data.feature.map((item, index) => <li key={index} className="xl:text-[13px] text-gray-500">{++index + '.'} {item}</li>)}</ul>
+              <div className="p-3 sm:p-3 md:p-3 lg:p-4 xl:p-5 2xl:p-6 space-y-2">
+                <h3 className="text-yellow-400 font-bold text-base sm:text-base md:text-lg lg:text-[19px] xl:text-xl 2xl:text-2xl">{data.projectName}</h3>
+                <ul className="space-y-1">{data.feature.map((item, index) =>   <li key={index} className="text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-[13px] 2xl:text-sm text-gray-500 text-justify">{++index + '.'} {item}</li>)}</ul>
               </div>
               {/* bottom end */}
               {/* link section start */}
-              <div className="xl:p-5">
+              <div className="p-3 sm:p-3 md:p-3 lg:p-4 xl:p-5 2xl:p-6">
                 <ul className="flex justify-between items-center">
-                  <li><button className="btn btn-xs xl:text-sm hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Code Link</button></li>
-                  <li><button className="btn btn-xs xl:text-sm hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Live Link</button></li>
+                  <li><button className="btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Code Link</button></li>
+                  <li><button className="btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base hover:bg-yellow-500 bg-yellow-500 text-white rounded-sm">Live Link</button></li>
                 </ul>
               </div>
               {/* link section end */}
