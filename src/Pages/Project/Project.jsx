@@ -36,7 +36,7 @@ const Project = () => {
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-5 sm:gap-4 md:gap-5 lg:gap-5 xl:gap-6 2xl:gap-7 mt-10">
             {
               allProject.map((data, index) => <div key={index} className="bg-blue-400">
-              <div className="h-64 xl:h-72 2xl:h-72 overflow-hidden">
+              <div className="h-64 xl:h-72 2xl:h-72 projectImg overflow-hidden">
                 <img src={data.image}></img>
               </div>
               <div>
