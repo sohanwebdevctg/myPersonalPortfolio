@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Title from "../../Components/Title/Title";
 
 
 const Project = () => {
@@ -29,6 +30,9 @@ const Project = () => {
 
   return (
     <>
+        {/* title section start */}
+        <Title name={'Project'}></Title>
+    {/* title section end */}
       {/* content section start */}
       <div className="container mx-auto py-10 h-full xl:h-full">
         <div className="flex flex-col sm:flex-row justify-between  bg-black shadow-inner shadow-slate-600 p-5 gap-2 xl:gap-10">

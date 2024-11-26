@@ -1,9 +1,13 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import Title from "../../Components/Title/Title";
 
 
 const About = () => {
   return (
     <>
+        {/* title section start */}
+        <Title name={'About'}></Title>
+    {/* title section end */}
       {/* content section start */}
         <div className="container mx-auto py-10">
           {/* about and experience start */}
@@ -83,7 +87,7 @@ const About = () => {
               </li>
               <li className="h-3 bg-slate-200 rounded-lg flex items-center">
                 <span className="bg-yellow-500 h-3 rounded-lg w-[70%] flex items-center justify-center text-[10px] text-black">React</span>
-                <span className=" w-[30%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 border-[1px] border-yellow-400 text-[10px] -ml-3">30%</span></span>
+                <span className=" w-[30%]"><span className="bg-black text-white rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 border-[1px] border-yellow-400 text-[10px] -ml-3">70%</span></span>
               </li>
             </ul>
           </div>

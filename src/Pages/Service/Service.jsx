@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import Title from "../../Components/Title/Title";
 
 const Service = () => {
 
@@ -18,6 +19,9 @@ const Service = () => {
 
   return (
     <>
+        {/* title section start */}
+        <Title name={'Service'}></Title>
+    {/* title section end */}
       {/* content section start */}
       <div className="container mx-auto py-10 sm:py-5 ">
         {/* item start */}

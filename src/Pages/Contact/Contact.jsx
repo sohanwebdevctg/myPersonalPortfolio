@@ -2,6 +2,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { CgMail } from "react-icons/cg";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import Title from "../../Components/Title/Title";
 
 
 const Contact = () => {
@@ -13,6 +14,9 @@ const Contact = () => {
 
   return (
     <>
+        {/* title section start */}
+        <Title name={'Contact'}></Title>
+    {/* title section end */}
       {/* content section start */}
       <div className='container mx-auto h-full sm:h-screen w-full px-2 py-10'>
         <div className="sm:flex sm:justify-around">
