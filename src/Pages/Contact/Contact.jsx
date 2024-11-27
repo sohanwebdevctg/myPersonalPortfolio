@@ -14,7 +14,7 @@ const Contact = () => {
   // AOS
   useEffect(() => {
     AOS.init();
-  },[])
+  },[]);
 
   const contactForm = (event) => {
     event.preventDefault();
