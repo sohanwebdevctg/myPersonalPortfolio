@@ -1,6 +1,6 @@
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { CgMail } from "react-icons/cg";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import Title from "../../Components/Title/Title";
 
@@ -51,6 +51,9 @@ const Contact = () => {
               </li>
               <li className="text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center">
                 <FaInstagram></FaInstagram>
+              </li>
+              <li className="text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center">
+                <FaGithub></FaGithub>
               </li>
             </ul>
             {/* icon section end */}

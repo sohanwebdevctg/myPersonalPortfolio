@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import image from '../../../public/image.png';
 import { Link } from "react-router-dom";
 
@@ -51,6 +51,9 @@ const Banner = () => {
                   <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
                     <FaInstagram></FaInstagram>
                   </li>
+                  <li className="text-sm rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 w-6 h-6 flex justify-center items-center">
+                    <FaGithub></FaGithub>
+                  </li>
                 </ul>
               </div>
               {/* social link */}
@@ -81,6 +84,9 @@ const Banner = () => {
               </li>
               <li className="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center">
                 <FaInstagram></FaInstagram>
+              </li>
+              <li className="sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center">
+                <FaGithub></FaGithub>
               </li>
             </ul>
           </div>
