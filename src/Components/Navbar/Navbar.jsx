@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
+import { AuthContext } from "../Providers/Providers";
 
 
 
@@ -10,6 +11,7 @@ const Navbar = () => {
   // toggle button
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(false);
+  const {color, setColor} = useContext(AuthContext);
 
   // side effect in scrollbar
   useEffect(() => {
@@ -20,19 +22,17 @@ const Navbar = () => {
         setActive(false);
       }
     })
-  })
-
-
+  });
 
   return (
     <>
       {/* content section start */}
         {/* desktop section start */}
-        <div className={` ${active ? 'fixed top-0 right-0 left-0 w-full z-50 bg-black bg-opacity-95 shadow-sm shadow-yellow-300 duration-300 easy-in' : 'hidden sm:block w-full bg-black bg-opacity-95 duration-300 easy-in z-50'} `}>
+        <div className={` ${active ? `fixed top-0 right-0 left-0 w-full z-50 ${color ? 'bg-white' : 'bg-black bg-opacity-95'} shadow-sm shadow-yellow-300 duration-300 easy-in` : `hidden sm:block w-full ${color ? 'bg-white' : 'bg-black bg-opacity-95'} duration-300 easy-in z-50`}`}>
           <div className="container mx-auto sm:px-8 md:px-10 lg:px-16 xl:px-14 2xl:px-24 hidden sm:block">
             <div className="flex justify-between items-center h-20">
               {/* logo start */}
-              <div><h3 className="sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold  italic"><span className="text-white">Sohan</span><span className="text-yellow-400">Mozumder</span></h3></div>
+              <div><h3 className="sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold  italic"><span className={`${color ? 'text-black' : 'text-white'}`}>Sohan</span><span className={`${color ? 'text-red-500' : 'text-yellow-400'}`}>Mozumder</span></h3></div>
               {/* logo end */}
               {/* router start */}
               <div>
@@ -41,8 +41,8 @@ const Navbar = () => {
                     <NavLink
                       className={({ isActive }) =>
                         isActive
-                          ? "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold text-yellow-500 duration-300"
-                          : "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl text-white"
+                          ? `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold ${color ? 'text-red-500':'text-yellow-500'} duration-300`
+                          : `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl ${color ? 'text-black' : 'text-white'}`
                       }
                       to="/"
                     >
@@ -53,8 +53,8 @@ const Navbar = () => {
                     <NavLink
                       className={({ isActive }) =>
                         isActive
-                          ? "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold text-yellow-500 duration-300"
-                          : "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl text-white"
+                          ? `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold ${color ? 'text-red-500':'text-yellow-500'} duration-300`
+                          : `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl ${color ? 'text-black' : 'text-white'}`
                       }
                       to="/about"
                     >
@@ -65,8 +65,8 @@ const Navbar = () => {
                     <NavLink
                       className={({ isActive }) =>
                         isActive
-                          ? "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold text-yellow-500 duration-300"
-                          : "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl text-white"
+                          ? `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold ${color ? 'text-red-500':'text-yellow-500'} duration-300`
+                          : `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl ${color ? 'text-black' : 'text-white'}`
                       }
                       to="/service"
                     >
@@ -77,8 +77,8 @@ const Navbar = () => {
                     <NavLink
                       className={({ isActive }) =>
                         isActive
-                          ? "sm:text-[10px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold text-yellow-500 duration-300"
-                          : "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl text-white"
+                          ? `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold ${color ? 'text-red-500':'text-yellow-500'} duration-300`
+                          : `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl ${color ? 'text-black' : 'text-white'}`
                       }
                       to="/project"
                     >
@@ -89,8 +89,8 @@ const Navbar = () => {
                     <NavLink
                       className={({ isActive }) =>
                         isActive
-                          ? "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold text-yellow-500 duration-300"
-                          : "sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl text-white"
+                          ? `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold ${color ? 'text-red-500':'text-yellow-500'} duration-300`
+                          : `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl ${color ? 'text-black' : 'text-white'}`
                       }
                       to="/contact"
                     >
@@ -102,8 +102,8 @@ const Navbar = () => {
               {/* router end */}
               
             <div>
-              <div className="flex items-center bg-black shadow-inner shadow-slate-700  rounded-2xl text-white p-2">
-                <input type="checkbox" className="toggle sm:toggle-xs lg:toggle-sm bg-yellow-400 hover:bg-yellow-400" />
+              <div className={`flex items-center ${color ? 'bg-white shadow-inner shadow-slate-200 p-1' : 'bg-black shadow-inner shadow-slate-700 p-2'}  rounded-2xl text-white `}>
+                <input type="checkbox" onChange={() => setColor(!color)} className={`toggle sm:toggle-xs lg:toggle-sm ${color ? 'bg-red-500 hover:bg-red-500' : 'bg-yellow-400 hover:bg-yellow-400'} border-none`} />
               </div>
             </div>
             </div>
