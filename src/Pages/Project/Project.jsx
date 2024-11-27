@@ -3,9 +3,16 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Title from "../../Components/Title/Title";
 import Loading from "../../Components/Loading/Loading";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Project = () => {
+
+  // AOS
+  useEffect(() => {
+    AOS.init();
+  },[]);
 
   // all state function data
   const [previous, setPrevious] = useState([]);
@@ -13,6 +20,7 @@ const Project = () => {
   const [tabs, setTabs] = useState([]);
   const [loading, setLoading] = useState(false);
 
+  // data fetch effect
   useEffect(() => {
     fetch('project.json')
     .then((res) => res.json())
@@ -25,7 +33,7 @@ const Project = () => {
     });
   },[]);
 
-  // tabs
+  // tabs function
   const buttonFun = (data) => {
     setLoading(true);
     const selectedTab = previous.filter((item) => item.projectType === data);
@@ -38,7 +46,6 @@ const Project = () => {
     return <Loading></Loading>
   }
 
-
   return (
     <>
         {/* title section start */}
@@ -46,7 +53,7 @@ const Project = () => {
     {/* title section end */}
       {/* content section start */}
       <div className="container mx-auto py-10 h-full xl:h-full">
-        <div className="flex flex-col sm:flex-row justify-between  bg-black shadow-inner shadow-slate-600 p-5 gap-2 xl:gap-10">
+        <div className="flex flex-col sm:flex-row justify-between bg-black shadow-inner shadow-slate-600 p-5 gap-2 xl:gap-10">
           {/* title start */}
           <div>
             <h2 className="text-lg sm:text-lg md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold text-slate-200">My <span className="text-yellow-400">Project</span>
@@ -64,7 +71,7 @@ const Project = () => {
           {/* content start */}
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-5 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-6 2xl:gap-7 mt-10">
             {
-              (tabs.length > 0 ? tabs : allProject).map((data, index) => <div key={index} className="flex flex-col justify-between projectCon">
+              (tabs.length > 0 ? tabs : allProject).map((data, index) => <div key={index} className="flex flex-col justify-between projectCon" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
               {/* image start */}
               <div className="h-64 xl:h-72 2xl:h-80 projectImg overflow-hidden">
                 <img src={data.image}></img>

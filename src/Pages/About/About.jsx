@@ -1,19 +1,29 @@
 import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Title from "../../Components/Title/Title";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 const About = () => {
+
+  // AOS
+  useEffect(() => {
+    AOS.init();
+  },[])
+
+
   return (
     <>
         {/* title section start */}
         <Title name={'About'}></Title>
     {/* title section end */}
       {/* content section start */}
-        <div className="container mx-auto py-10">
+        <div className="container mx-auto py-10 overflow-hidden">
           {/* about and experience start */}
           <div className="flex flex-col sm:flex-row justify-between items-center gap-5 lg:gap-7 xl:gap-10">
             {/* about start */}
-            <div className="w-full sm:w-1/2">
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" className="w-full sm:w-1/2">
             <h2 className="text-base sm:text-base md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold text-slate-200">
                 Hi, I am <span className="text-yellow-400">sohan mozumder</span>
               </h2>
@@ -48,19 +58,19 @@ const About = () => {
             {/* about end */}
             {/* experience start */}
             <div className="w-full sm:w-1/2 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-2 sm:gap-3 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6">
-              <div className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+              <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500" className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-white">3+</h3>
                 <p className="text-[10px] sm:text-[11px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-gray-500 italic">Years of experience</p>
               </div>
-              <div className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+              <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="525" className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-white">3+</h3>
                 <p className="text-[10px] sm:text-[11px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-gray-500 italic">Front-end Development</p>
               </div>
-              <div className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+              <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="550" className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-white">21+</h3>
                 <p className="text-[10px] sm:text-[11px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-gray-500 italic">Happy Customer</p>
               </div>
-              <div className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
+              <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="575" className="bg-yellow-400 py-4 sm:py-6 md:py-6 lg:py-6 xl:py-6 text-center space-y-1 rounded-sm">
                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-white">110+</h3>
                 <p className="text-[10px] sm:text-[11px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl text-gray-500 italic">Client Project</p>
               </div>
@@ -69,7 +79,7 @@ const About = () => {
           </div>
           {/* about and experience end */}
           {/* skill start */}
-          <div className="mt-10 bg-black shadow-inner shadow-slate-800 p-5 sm:p-6 md:p-7 lg:p-8 xl:p-9 2xl:p-10 ">
+          <div data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500" className="mt-10 bg-black shadow-inner shadow-slate-800 p-5 sm:p-6 md:p-7 lg:p-8 xl:p-9 2xl:p-10 ">
             <div className="mb-5">
             <h2 className="text-lg sm:text-lg md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold text-slate-200">
                 Expert <span className="text-yellow-400">In</span>

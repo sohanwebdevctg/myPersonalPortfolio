@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Title from "../../Components/Title/Title";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Service = () => {
 
@@ -16,6 +18,11 @@ const Service = () => {
     })
   },[]);
 
+    // AOS
+    useEffect(() => {
+      AOS.init();
+    },[])
+
 
   return (
     <>
@@ -27,7 +34,7 @@ const Service = () => {
         {/* item start */}
         <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-4 sm:gap-4 md:gap-5 lg:gap-4 xl:gap-5 2xl:gap-6 h-full ${toggle ? 'sm:h-full' : 'sm:h-full xl:h-screen'}`}>
           {
-            allData.slice(0, toggle ? 12 : 6).map((item,index) => <div className="bg-black shadow-inner shadow-slate-600 serviceCon p-4 sm:p-4 md:p-4 lg:p-5 xl:p-6 2xl:p-7 flex flex-col justify-between gap-3 sm:gap-3 md:gap-4 xl:gap-2" key={index}>
+            allData.slice(0, toggle ? 12 : 6).map((item,index) => <div className="bg-black shadow-inner shadow-slate-600 serviceCon p-4 sm:p-4 md:p-4 lg:p-5 xl:p-6 2xl:p-7 flex flex-col justify-between gap-3 sm:gap-3 md:gap-4 xl:gap-2" key={index} data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
               <div>
                 <h2 className="text-white font-bold text-base sm:text-base md:text-lg lg:text-base xl:text-lg 2xl:text-2xl">{item.name}</h2>
                 <ul className="space-y-2 mt-2 2xl:mt-3">
