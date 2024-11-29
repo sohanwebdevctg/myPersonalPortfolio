@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from './../../Components/Providers/Providers';
+import { Link } from "react-router-dom";
 
 
 const About = () => {
@@ -50,21 +51,13 @@ const About = () => {
               </p>
               <ul className="flex gap-2 items-center mt-5">
               <li className="text-slate-500 sm:text-xs md:text-sm lg:text-base">Check out my:</li>
-              <li className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}>
-                <FaFacebookF></FaFacebookF>
+              <li><Link to="https://www.facebook.com/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaFacebookF></FaFacebookF></Link>
               </li>
-              <li className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}>
-                <FaTwitter></FaTwitter>
+              <li><Link to="https://x.com/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaTwitter></FaTwitter></Link>
               </li>
-              <li className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}>
-                <FaLinkedinIn></FaLinkedinIn>
+              <li><Link to="https://www.linkedin.com/in/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaLinkedinIn></FaLinkedinIn></Link>
               </li>
-              <li className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}>
-                <FaInstagram></FaInstagram>
-              </li>
-              <li className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}>
-                <FaGithub></FaGithub>
-              </li>
+              <li><Link to="https://github.com/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaGithub></FaGithub></Link></li>
             </ul>
             </div>
             {/* about end */}
