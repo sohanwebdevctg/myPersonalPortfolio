@@ -46,7 +46,7 @@ const About = () => {
               I started my career as a front-end web developer, which deepened my interest in the field. I love my job and feel very comfortable working in this domain. Currently, I provide my services using the React.js library. Additionally, I am always eager to learn and adapt to new libraries and frameworks.
               </p>
               <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
-              Hi, my name is Sohan Mozumder. I have been working in the front-end web development industry for 3 years, providing services to a variety of clients. I live in Chattogram, Bangladesh. I completed my Secondary School Certificate (SSC) in 2017 and my Higher Secondary Certificate (HSC) in 2019, graduating from BN School and College. Additionally, I completed a Front-End Web Development program (2021–2023) at Programming Hero.
+              Hi, my name is Sohan Mozumder. I have worked in the front-end web development industry for 3 years, providing services to various clients. I live in Chattogram, Bangladesh. I completed my Diploma in Electrical Engineering (2019-2023) and my Front-End Web Development (2021-2022).
               </p>
               <ul className="flex gap-2 items-center mt-5">
               <li className="text-slate-500 sm:text-xs md:text-sm lg:text-base">Check out my:</li>
