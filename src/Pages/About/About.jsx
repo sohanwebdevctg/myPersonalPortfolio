@@ -1,4 +1,4 @@
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Title from "../../Components/Title/Title";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -53,9 +53,9 @@ const About = () => {
               <li className="text-slate-500 sm:text-xs md:text-sm lg:text-base">Check out my:</li>
               <li><Link to="https://www.facebook.com/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaFacebookF></FaFacebookF></Link>
               </li>
-              <li><Link to="https://x.com/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaTwitter></FaTwitter></Link>
-              </li>
               <li><Link to="https://www.linkedin.com/in/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaLinkedinIn></FaLinkedinIn></Link>
+              </li>
+              <li><Link to="https://x.com/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaTwitter></FaTwitter></Link>
               </li>
               <li><Link to="https://github.com/sohanwebdevctg" target="_blank" className={`${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} text-sm sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full w-6 h-6 sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaGithub></FaGithub></Link></li>
             </ul>

@@ -1,6 +1,6 @@
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { CgMail } from "react-icons/cg";
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import Title from "../../Components/Title/Title";
 import AOS from 'aos';
