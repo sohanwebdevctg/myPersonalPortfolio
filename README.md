@@ -2,5 +2,5 @@
 
 * ### In this project i use some library, framework and package (vite, tailwind.css, daisyui, react-helmet-asyn, react-router-dom, aos, react-icons)
 
-* ### live-link : ()
+* ### live-link : (https://precious-kringle-6f441e.netlify.app)
 * ### code-link : (https://github.com/sohanwebdevctg/myPersonalPortfolio)
