@@ -106,7 +106,7 @@
     "projectType" : "react",
     "projectName" : "Retail POS",
     "image" : "../react4.png",
-    "details" : "This project is basically a single page office-management retail POS system. In this project, office officials or employees will be able to order the daily necessities of their office through this dashboard. Here, officials or employees will order the product they need on the dashboard from their admin. If the admin approves the product, he will receive that product. If he does not approve or deletes it, that product request will not be considered approved.",
+    "details" : "This project is basically a single page office-management retail POS system. In this project, office officials or employees will be able to order the daily necessities of their office through this dashboard. Here, officials or employees will order the product they need on the dashboard from their admin. If the admin approves the product, he will receive that product. If he does not approve or deletes it, that product request will not be considered approved. name : admin, email : admin@gmail.com, password : 123456",
     "feature" : ["Mobile banking services or services provided through cards can be added here.", "That benefit can be added to use a product in multiple services.", "Features like feedback or comments can be added here."],
     "liveLink": "https://creative-axolotl-782f50.netlify.app/login",
     "codeLink": "https://github.com/sohanwebdevctg/react4-office-management-retail-pos-system"

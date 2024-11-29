@@ -97,8 +97,8 @@ const Project = () => {
               {/* link section start */}
               <div className="p-3 sm:p-3 md:p-3 lg:p-4 xl:p-5 2xl:p-6">
                 <ul className="flex justify-between items-center">
-                  <li><Link to={data.codeLink}><button className={`btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base ${color ? 'hover:bg-red-500 bg-red-500' : 'hover:bg-yellow-500 bg-yellow-500'} text-white rounded-sm`}>Code Link</button></Link></li>
-                  <li><Link to={data.liveLink}><button className={`btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base ${color ? 'hover:bg-red-500 bg-red-500' : 'hover:bg-yellow-500 bg-yellow-500'} text-white rounded-sm`}>Live Link</button></Link></li>
+                  <li><Link to={data.codeLink} target="_blank"><button className={`btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base ${color ? 'hover:bg-red-500 bg-red-500' : 'hover:bg-yellow-500 bg-yellow-500'} text-white rounded-sm`}>Code Link</button></Link></li>
+                  <li><Link to={data.liveLink} target="_blank"><button className={`btn btn-xs text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base ${color ? 'hover:bg-red-500 bg-red-500' : 'hover:bg-yellow-500 bg-yellow-500'} text-white rounded-sm`}>Live Link</button></Link></li>
                 </ul>
               </div>
               {/* link section end */}
