@@ -42,7 +42,7 @@ const Banner = () => {
               </p>
               <ul className="flex items-center gap-3 xl:gap-5 mt-3">
               <li>
-                <a href="/public/reasume of md. amir hossain sohan.pdf" download className={`text-xs sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 ${color ? 'bg-red-500' : 'bg-yellow-500'} text-white font-bold rounded-md flex items-center gap-1`}>My Resume
+                <a href="reasume of md. amir hossain sohan.pdf" download className={`text-xs sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 ${color ? 'bg-red-500' : 'bg-yellow-500'} text-white font-bold rounded-md flex items-center gap-1`}>My Resume
                 <FaArrowDown></FaArrowDown></a>
                 </li>
                 <Link to="/contact">
