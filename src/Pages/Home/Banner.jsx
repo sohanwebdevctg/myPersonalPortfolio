@@ -41,9 +41,9 @@ const Banner = () => {
               Creative and results-driven web developer specializing in React and modern web technologies. Always eager to learn, adapt, and collaborate in dynamic environments to bring ideas to life.
               </p>
               <ul className="flex items-center gap-3 xl:gap-5 mt-3">
-                <li className={`text-xs sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 ${color ? 'bg-red-500' : 'bg-yellow-500'} text-white font-bold rounded-md flex items-center gap-1`}>
-                  My Resume
-                  <FaArrowDown></FaArrowDown>
+              <li>
+                <a href="/public/reasume of md. amir hossain sohan.pdf" download className={`text-xs sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 ${color ? 'bg-red-500' : 'bg-yellow-500'} text-white font-bold rounded-md flex items-center gap-1`}>My Resume
+                <FaArrowDown></FaArrowDown></a>
                 </li>
                 <Link to="/contact">
                 <li className={`text-xs sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 rounded-md ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:shadow-red-500 hover:duration-500 hover:shadow-sm' : 'bg-black text-white hover:shadow-yellow-500 duration-300 shadow-sm shadow-white'}  font-bold`}>Hire Me
