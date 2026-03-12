@@ -38,16 +38,16 @@ const About = () => {
             {/* about start */}
             <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" className="w-full sm:w-1/2">
             <h2 className={`text-base sm:text-base md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold ${color ? 'text-black' : 'text-slate-200'}`}>
-                Hi, I am <span className={`${color ? 'text-red-500' : 'text-yellow-400'} `}>sohan mozumder</span>
+                Hi, I am <span className={`${color ? 'text-red-500' : 'text-yellow-400'} `}>Md. Amir Hossain Sohan</span>
               </h2>
               <h2 className={`text-[21px] sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-extrabold ${color ? 'text-black' :'text-slate-200'}`}>
-                Front-end Web Developer
+                Full-Stack .Net Developer
               </h2>
               <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-sm lg:text-bage xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
-              I started my career as a front-end web developer, which deepened my interest in the field. I love my job and feel very comfortable working in this domain. Currently, I provide my services using the React.js library. Additionally, I am always eager to learn and adapt to new libraries and frameworks.
+              I began my professional journey as a Front-End Web Developer, where I developed a strong foundation in creating intuitive user interfaces. Over the years, my passion for problem-solving led me to explore the backend world, and I have now evolved into a Full-Stack .NET Developer. I specialize in building end-to-end applications using React.js for modern frontends and ASP.NET Core for scalable backend logic, always striving to deliver seamless and efficient digital solutions.
               </p>
               <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-sm lg:text-base xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
-              Hi, my name is Sohan Mozumder. I have worked in the front-end web development industry for 3 years, providing services to various clients. I live in Chattogram, Bangladesh. I completed my Diploma in Electrical Engineering (2019-2023) and my Front-End Web Development (2021-2022).
+              Hi, I am Md. Amir Hossain Sohan, based in Chattogram, Bangladesh. With over 3 years of experience in the web development industry, I have successfully delivered numerous projects for various clients. My academic background includes a Diploma in Electrical Engineering (2019-2023), which provided me with strong analytical skills. I am committed to continuous learning, bridging the gap between design and functionality in every project I undertake.
               </p>
               <ul className="flex gap-2 items-center mt-5">
               <li className="text-slate-500 sm:text-xs md:text-sm lg:text-base">Check out my:</li>
@@ -85,23 +85,36 @@ const About = () => {
                 </h2>
               </div>
               <ul className="space-y-6 xl:space-y-10">
-                <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
-                  <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'}  h-3 rounded-lg w-[80%] flex items-center justify-center text-[10px] `}>HTML</span>
-                  <span className=" w-[20%]"><span className={`${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'}  rounded-full flex justify-center items-center p-2 w-7 h-7 z-50  text-[10px] -ml-3`}>80%</span></span>
-                </li>
-                <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
-                  <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'} h-3 rounded-lg w-[70%] flex items-center justify-center text-[10px] `}>CSS</span>
-                  <span className=" w-[30%]"><span className={` ${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'} rounded-full flex justify-center items-center p-2 w-7 h-7 z-50  text-[10px] -ml-3`}>70%</span></span>
-                </li>
-                <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
-                  <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'} h-3 rounded-lg w-[60%] flex items-center justify-center text-[10px]`}>JavaScript</span>
-                  <span className=" w-[40%]"><span className={`${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'} rounded-full flex justify-center items-center p-2 w-7 h-7 z-50  text-[10px] -ml-3`}>60%</span></span>
-                </li>
-                <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
-                  <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'} h-3 rounded-lg w-[70%] flex items-center justify-center text-[10px] `}>React</span>
-                  <span className=" w-[30%]"><span className={` ${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'} rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 text-[10px] -ml-3`}>70%</span></span>
-                </li>
-              </ul>
+  {/* .NET Core - New Skill */}
+  <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
+    <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'} h-3 rounded-lg w-[85%] flex items-center justify-center text-[10px] `}>.NET Core / C#</span>
+    <span className=" w-[15%]"><span className={`${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'} rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 text-[10px] -ml-3`}>85%</span></span>
+  </li>
+
+  {/* React - Updated */}
+  <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
+    <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'} h-3 rounded-lg w-[90%] flex items-center justify-center text-[10px] `}>React.js</span>
+    <span className=" w-[10%]"><span className={` ${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'} rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 text-[10px] -ml-3`}>90%</span></span>
+  </li>
+
+  {/* JavaScript */}
+  <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
+    <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'} h-3 rounded-lg w-[80%] flex items-center justify-center text-[10px]`}>JavaScript (ES6+)</span>
+    <span className=" w-[20%]"><span className={`${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'} rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 text-[10px] -ml-3`}>80%</span></span>
+  </li>
+
+  {/* MS SQL Server / Database - New Skill */}
+  <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
+    <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'} h-3 rounded-lg w-[80%] flex items-center justify-center text-[10px] `}>SQL Server / MongoDB</span>
+    <span className=" w-[20%]"><span className={`${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'} rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 text-[10px] -ml-3`}>80%</span></span>
+  </li>
+
+  {/* CSS3/Tailwind */}
+  <li className={`h-3 ${color ? 'bg-black' :'bg-slate-200'} rounded-lg flex items-center`}>
+    <span className={` ${color ? 'bg-red-500 text-white' : 'bg-yellow-500 text-black'} h-3 rounded-lg w-[85%] flex items-center justify-center text-[10px] `}>CSS3 / Tailwind</span>
+    <span className=" w-[15%]"><span className={` ${color ? 'bg-white text-black border-[1px] border-red-500' : 'bg-black text-white border-[1px] border-yellow-400'} rounded-full flex justify-center items-center p-2 w-7 h-7 z-50 text-[10px] -ml-3`}>85%</span></span>
+  </li>
+</ul>
             </div>
           </div>
           {/* skill end */}

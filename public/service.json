@@ -1,84 +1,110 @@
 [
   {
     "id" : 1,
-    "name" : "Website Development",
-    "description" : ["Custom React.js website development",
-    "Responsive web design (desktop, tablet, mobile optimization)",
-    "Single-page applications (SPA)"]
+    "name" : "Full-Stack Web Development",
+    "description" : [
+      "End-to-end web application development using .NET Core & React.js",
+      "Building scalable and robust backend architectures with C#",
+      "Seamless integration between frontend and server-side logic"
+    ]
   },
   {
     "id" : 2,
-    "name" : "UI/UX Implementation",
-    "description" : ["Conversion of UI/UX designs (Figma, Sketch, Adobe XD) into responsive React components",
-    "Creation of custom UI components and libraries",
-    "Material-UI or Tailwind CSS integration"]
+    "name" : "ASP.NET Core Web API",
+    "description" : [
+      "Designing and implementing secure RESTful APIs",
+      "JWT-based authentication and role-based authorization",
+      "Middleware development and API documentation using Swagger"
+    ]
   },
   {
     "id" : 3,
-    "name" : "Web Performance Optimization",
-    "description" : ["Optimizing React applications for faster load times",
-    "Code splitting, lazy loading, and tree shaking",
-    "Reducing bundle size and improving Lighthouse scores"]
+    "name" : "Database Design & Management",
+    "description" : [
+      "Relational database modeling with MS SQL Server",
+      "Query optimization, stored procedures, and data security",
+      "Integrating Entity Framework Core for efficient data handling"
+    ]
   },
   {
     "id" : 4,
-    "name" : "Frontend Architecture Design",
-    "description" : ["Scalable component architecture",
-    "State management solutions using Redux, Context API, or Zustand",
-    "Server-side rendering (SSR) with Next.js"]
+    "name" : "React.js Application Development",
+    "description" : [
+      "Building high-performance Single Page Applications (SPA)",
+      "State management using Redux, Context API, or Zustand",
+      "Modern UI development with Tailwind CSS and DaisyUI"
+    ]
   },
   {
     "id" : 5,
-    "name" : "Third-party Integrations",
-    "description" : ["Integration with APIs, payment gateways, or analytics tools",
-    "Social media integration (login, sharing, etc.)",
-    "Charting and data visualization tools (Chart.js, D3.js)"]
+    "name" : "E-commerce Solutions",
+    "description" : [
+      "Developing online stores with shopping carts and product catalogs",
+      "Implementing admin dashboards for inventory and order tracking",
+      "Handling complex business logic for retail platforms"
+    ]
   },
   {
     "id" : 6,
-    "name" : "Maintenance & Updates",
-    "description" : ["Bug fixes and performance improvements",
-    "Adding new features or modules to existing React applications",
-    "Migrating legacy projects to React"]
+    "name" : "Payment Gateway Integration",
+    "description" : [
+      "Integrating secure payment systems like SSLCommerz or Stripe",
+      "Handling real-time transaction status and payment history",
+      "Ensuring secure checkout experiences for users"
+    ]
   },
   {
     "id" : 7,
-    "name" : "Landing Page Development",
-    "description" : ["Personal and business portfolios",
-    "Landing pages for product launches or marketing campaigns",
-    "Interactive single-page sites"]
+    "name" : "UI/UX to Code Conversion",
+    "description" : [
+      "Converting Figma/Adobe XD designs into pixel-perfect React code",
+      "Ensuring full responsiveness across all mobile and desktop devices",
+      "Creating custom reusable UI components and animations"
+    ]
   },
   {
     "id" : 8,
-    "name" : "E-commerce Frontend Development",
-    "description" : ["Developing e-commerce store interfaces with React",
-    "Integration with CMSs like Shopify or headless solutions"]
+    "name" : "Web Performance Optimization",
+    "description" : [
+      "Optimizing React apps for faster load times and better SEO",
+      "Code splitting, lazy loading, and asset minification",
+      "Improving Lighthouse scores and overall core web vitals"
+    ]
   },
   {
     "id" : 9,
-    "name" : "Dashboard Development",
-    "description" : ["Custom dashboard creation for business analytics",
-    "Role-based access and user management"]
+    "name" : "Third-party API Integration",
+    "description" : [
+      "Integrating external services (Maps, SMS Gateways, Social Login)",
+      "Connecting applications with various cloud and SaaS tools",
+      "Handling JSON/XML data processing and synchronization"
+    ]
   },
   {
     "id" : 10,
-    "name" : "Progressive Web Applications",
-    "description" : ["Developing React-based PWAs",
-    "Offline functionality and push notifications"
+    "name" : "Maintenance & Bug Fixing",
+    "description" : [
+      "Regular updates, security patching, and error debugging",
+      "Refactoring legacy code to modern .NET/React standards",
+      "Providing ongoing technical support and performance monitoring"
     ]
   },
   {
     "id" : 11,
-    "name" : "Tailored Services",
-    "description" : ["Custom scrollbar or animations",
-    "SEO-friendly React apps",
-    "Accessibility compliance (WCAG standards)"]
+    "name" : "Dashboard & Analytics Systems",
+    "description" : [
+      "Building data-driven dashboards for business insights",
+      "Visualizing complex data using Chart.js or D3.js",
+      "Role-based access for different levels of administrators"
+    ]
   },
   {
     "id" : 12,
-    "name" : "Code Review and Consultancy",
-    "description" : ["Reviewing and refactoring existing React codebases",
-    "Providing guidance on React best practices and tools",
-    "Setting up development workflows with tools like ESLint, Prettier, and Git"]
+    "name" : "Deployment & Technical Consultancy",
+    "description" : [
+      "Deploying applications to IIS, Azure, or VPS environments",
+      "Setting up CI/CD pipelines and Git-based workflows",
+      "Providing guidance on software architecture and best practices"
+    ]
   }
 ]

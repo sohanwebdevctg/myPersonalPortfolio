@@ -110,5 +110,21 @@
     "feature" : ["Mobile banking services or services provided through cards can be added here.", "That benefit can be added to use a product in multiple services.", "Features like feedback or comments can be added here."],
     "liveLink": "https://creative-axolotl-782f50.netlify.app/login",
     "codeLink": "https://github.com/sohanwebdevctg/react4-office-management-retail-pos-system"
-  }
+  },
+
+{
+    "id" : 12,
+    "projectType" : "asp.net core",
+    "projectName" : "SuperShop (E-commerce POS)",
+    "image" : "../asp.net.png",
+    "details" : "A robust Full-Stack Retail POS and Office Management system. This project features a centralized dashboard where employees can request daily necessities, and an administrative layer for order oversight. It streamlines the procurement process by allowing admins to approve, reject, or delete product requests in real-time. Admin Access -> Email: admin@gmail.com | Password: 123456",
+    "feature" : [
+      "Integrated Secure Payment Gateway supporting Mobile Banking and Card services.",
+      "Advanced Product Management with multi-service utility features.",
+      "Real-time Feedback and Approval system for administrative control.",
+      "Built with ASP.NET Core MVC, Entity Framework, and MS SQL Server."
+    ],
+    "liveLink": "https://github.com/sohanwebdevctg/ASPDotNet-Core-WebApp-MVC-Base-SuperShop-EcommerceType-Project",
+    "codeLink": "https://github.com/sohanwebdevctg/ASPDotNet-Core-WebApp-MVC-Base-SuperShop-EcommerceType-Project"
+}
 ]

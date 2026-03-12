@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="container mx-auto sm:px-8 md:px-10 lg:px-16 xl:px-14 2xl:px-24 hidden sm:block">
             <div className="flex justify-between items-center h-20">
               {/* logo start */}
-              <div><h3 className="sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold  italic"><span className={`${color ? 'text-black' : 'text-white'}`}>Sohan</span><span className={`${color ? 'text-red-500' : 'text-yellow-400'}`}>Mozumder</span></h3></div>
+              <div><h3 className="sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold  italic"><span className={`${color ? 'text-black' : 'text-white'}`}>AmirHossain</span><span className={`${color ? 'text-red-500' : 'text-yellow-400'}`}>Sohan</span></h3></div>
               {/* logo end */}
               {/* router start */}
               <div>
@@ -115,7 +115,7 @@ const Navbar = () => {
           {/* logo and button section start */}
           <div className={`${active ? `fixed top-0 right-0 left-0 z-50 shadow-sm ${color ? 'shadow-red-500' : 'shadow-yellow-300'}`: `sticky`} flex justify-between items-center px-6 h-20 ${color ? 'bg-white' : 'bg-black'}`}>
             <div>
-            <h3 className="text-base font-bold text-white italic"><span className={`${color ?'text-black' :'text-white'}`}>Sohan</span><span className={`${color ? 'text-red-500' : 'text-yellow-400'}`}>Mozumder</span></h3>
+            <h3 className="text-base font-bold text-white italic"><span className={`${color ?'text-black' :'text-white'}`}>AmirHossain</span><span className={`${color ? 'text-red-500' : 'text-yellow-400'}`}>Sohan</span></h3>
             </div>
             <div className="flex items-center gap-2">
             <div className={`flex items-center ${color ? 'bg-white shadow-inner shadow-slate-200 p-1' : 'bg-black shadow-inner shadow-slate-700 p-1'}  rounded-2xl text-white `}>

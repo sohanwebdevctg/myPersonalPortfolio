@@ -32,13 +32,13 @@ const Banner = () => {
                 SOHANWEBDEVCTG
               </span>
               <h2 className={`text-lg sm:text-base md:text-xl lg:text-[22px] xl:text-2xl 2xl:text-3xl font-bold ${color ? 'text-black' : 'text-slate-200'}`}>
-                Hi, I am <span className={`${color ? 'text-red-500' : 'text-yellow-400'}`}>sohan mozumder</span>
+                Hi, I am <span className={`${color ? 'text-red-500' : 'text-yellow-400'}`}>Md. Amir Hossain Sohan</span>
               </h2>
               <h2 className={`text-[21px] sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-extrabold ${color ? 'text-black' : 'text-slate-200'}`}>
-                Front-end Web Developer
+                Full-Stack .Net Developer
               </h2>
               <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-base lg:text-lg xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
-              Creative and results-driven web developer specializing in React and modern web technologies. Always eager to learn, adapt, and collaborate in dynamic environments to bring ideas to life.
+              I am a passionate Full-Stack Developer specializing in building robust web applications using the .NET ecosystem and modern frontend technologies like React.js. I have a proven track record of developing end-to-end solutions, including secure payment integrations and complex admin dashboards, ensuring both performance and scalability.
               </p>
               <ul className="flex items-center gap-3 xl:gap-5 mt-3">
               <li>

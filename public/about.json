@@ -1,22 +1,22 @@
 [
   {
     "id" : 1,
-    "years" : 3,
-    "details" : "Years of experience"
+    "years" : "3",
+    "details" : "Years of Experience"
   },
   {
     "id" : 2,
-    "years" : 3,
-    "details" : "Front-end Development"
+    "years" : "1.5",
+    "details" : ".NET & Backend Skills"
   },
   {
     "id" : 3,
-    "years" : 21,
-    "details" : "Happy Customer"
+    "years" : "21",
+    "details" : "Happy Customers"
   },
   {
     "id" : 4,
-    "years" : 110,
-    "details" : "Client Project"
+    "years" : "110",
+    "details" : "Frontend & Fullstack Projects"
   }
 ]
