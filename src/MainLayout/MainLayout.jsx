@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbar/Navbar";
 import { useContext } from "react";
 import { AuthContext } from "../Components/Providers/Providers";
+import Footer from "../Components/Footer/Footer";
 
 
 
@@ -20,6 +21,9 @@ const MainLayout = () => {
         <Outlet></Outlet>
       </div>
       {/* content section end */}
+      {/* footer section start */}
+      <Footer></Footer>
+      {/* footer section end */}
     </div>
   );
 };

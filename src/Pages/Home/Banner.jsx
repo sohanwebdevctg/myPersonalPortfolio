@@ -42,7 +42,7 @@ const Banner = () => {
               </p>
               <ul className="flex items-center gap-3 xl:gap-5 mt-3">
               <li>
-                <a href="reasume of md. amir hossain sohan.pdf" download className={`text-xs sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 ${color ? 'bg-red-500' : 'bg-yellow-500'} text-white font-bold rounded-md flex items-center gap-1`}>My Resume
+                <a href="resume of md. amir hossain sohan.pdf" download className={`text-xs sm:text-[10px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg px-4 py-2 xl:px-6 xl:py-2 ${color ? 'bg-red-500' : 'bg-yellow-500'} text-white font-bold rounded-md flex items-center gap-1`}>My Resume
                 <FaArrowDown></FaArrowDown></a>
                 </li>
                 <Link to="/contact">
@@ -51,23 +51,7 @@ const Banner = () => {
                 </Link>
               </ul>
               {/* top item */}
-              {/* social link */}
-              <div className="block sm:hidden mt-4 h-full">
-                <ul className="flex gap-2 items-center">
-                  <li className="text-slate-500 text-sm">Check out my:</li>
-                  <li><Link to="https://www.facebook.com/sohanwebdevctg" target="_blank" className={`text-sm rounded-full  ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} w-6 h-6 flex justify-center items-center`}><FaFacebookF></FaFacebookF></Link>
-                  </li>
-                  <li><Link to="https://www.linkedin.com/in/sohanwebdevctg" target="_blank" className={`text-sm rounded-full  ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} w-6 h-6 flex justify-center items-center`}><FaLinkedinIn></FaLinkedinIn></Link>
-                  </li>
-                  <li>
-                    <Link to="https://x.com/sohanwebdevctg" target="_blank" className={`text-sm rounded-full  ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} w-6 h-6 flex justify-center items-center`}><FaTwitter></FaTwitter>
-                    </Link>
-                  </li>
-                  <li><Link to="https://github.com/sohanwebdevctg" target="_blank" className={`text-sm rounded-full  ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} w-6 h-6 flex justify-center items-center`}><FaGithub></FaGithub></Link>
-                  </li>
-                </ul>
-              </div>
-              {/* social link */}
+
             </div>
           {/* left end */}
           {/* right start */}
@@ -80,19 +64,7 @@ const Banner = () => {
             </div>
           </div>
           {/* right end */}
-          {/* social section start */}
-          <div className="hidden sm:block absolute bottom-0 left-0 w-full">
-              <ul className="flex gap-2 items-center">
-              <li className="text-slate-500 sm:text-xs md:text-sm lg:text-base">Check out my:</li>
-              <li><Link to="https://www.facebook.com/sohanwebdevctg" target="_blank" className={`sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} duration-300 easy-in sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaFacebookF></FaFacebookF></Link>
-              </li>
-              <li><Link to="https://www.linkedin.com/in/sohanwebdevctg" target="_blank" className={`sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} duration-300 easy-in sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaLinkedinIn></FaLinkedinIn></Link></li>
-              <li><Link to="https://x.com/sohanwebdevctg" target="_blank" className={`sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} duration-300 easy-in sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaTwitter></FaTwitter></Link></li>
-              <li><Link to="https://github.com/sohanwebdevctg" target="_blank" className={`sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-lg rounded-full ${color ? 'bg-white shadow-inner shadow-slate-300 text-black hover:text-red-500' : 'bg-black shadow-inner shadow-slate-800 text-white hover:text-yellow-500'} duration-300 easy-in sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 xl:h-8 xl:w-8 2xl:w-9 2xl:h-9 flex justify-center items-center`}><FaGithub></FaGithub></Link>
-              </li>
-            </ul>
-          </div>
-          {/* social section end */}
+          
         </div>
       </div>
       {/* content section end */}
