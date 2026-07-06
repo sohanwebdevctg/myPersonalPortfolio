@@ -1,5 +1,6 @@
 import Title from "../../Components/Title/Title";
 import Banner from "./Banner";
+import CoreStack from "./CoreStack";
 
 
 const Home = () => {
@@ -11,6 +12,9 @@ const Home = () => {
     {/* banner section start */}
       <Banner></Banner>
     {/* banner section end */}
+    {/* core stack section start */}
+    <CoreStack></CoreStack>
+    {/* core stack section end */}
     </>
   );
 };

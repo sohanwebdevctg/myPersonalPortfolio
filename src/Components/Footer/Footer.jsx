@@ -6,7 +6,7 @@ import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
 
-  const {color, setColor} = useContext(AuthContext);
+  const {color} = useContext(AuthContext);
 
   return (
     <div className={`${color ? 'border-red-500' : 'border-yellow-500'} h-full w-full flex flex-col sm:flex-row justify-between items-center gap-5 border-t-[1px] px-3  py-5 sm:px-8 md:px-10 lg:px-12 mt-5`}>
