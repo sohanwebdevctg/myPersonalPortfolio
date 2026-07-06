@@ -1,6 +1,7 @@
 import Title from "../../Components/Title/Title";
 import Banner from "./Banner";
 import CoreStack from "./CoreStack";
+import Ido from "./Ido";
 
 
 const Home = () => {
@@ -15,6 +16,9 @@ const Home = () => {
     {/* core stack section start */}
     <CoreStack></CoreStack>
     {/* core stack section end */}
+    {/* ido section start */}
+    <Ido></Ido>
+    {/* ido section end */}
     </>
   );
 };

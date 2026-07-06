@@ -1,5 +1,7 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { AuthContext } from "../../Components/Providers/Providers";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const stack = [
   {name: 'React.js', image: '../../../public/react.png'},
@@ -11,6 +13,11 @@ const stack = [
 ];
 
 const CoreStack = () => {
+
+  // AOS
+    useEffect(() => {
+      AOS.init();
+    },[])
 
   // context
     const {color} = useContext(AuthContext);
@@ -28,7 +35,7 @@ const CoreStack = () => {
       {/* stack start */}
       <div className="grid grid-cols-3 sm:grid-cols-6 md:flex md:flex-wrap md:justify-center gap-2 sm:gap-1 md:gap-8 lg:gap-9 items-center justify-items-center">
         {stack.map((item, index) => (
-          <div 
+          <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500"
             key={index} 
             className="group relative flex flex-col items-center justify-center w-20 h-20 sm:w-16 sm:h-18 md:w-16 md:h-18 lg:w-24 lg:h-24 transition-all duration-300 transform hover:-translate-y-2"
           >
