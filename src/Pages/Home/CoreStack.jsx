@@ -16,11 +16,11 @@ const CoreStack = () => {
     const {color} = useContext(AuthContext);
 
   return (
-    <div>
+    <div className="my-10">
       {/* title start */}
-      <div className="text-center my-8 md:my-0">
-        <h3 className={`text-2xl font-bold mb-2 ${color ? 'text-black' : 'text-slate-200'}`}>Core Stack</h3>
-        <p className="text-gray-500 text-sm sm:text-[13px] md:text-base lg:text-lg xl:text-lg 2xl:text-xl mx-auto">
+      <div className="text-center my-5">
+        <h3 className={`text-2xl lg:text-3xl font-bold mb-2 ${color ? 'text-black' : 'text-slate-200'}`}>Core Stack</h3>
+        <p className="text-gray-500 text-sm sm:text-[13px] md:text-base lg:text-lg xl:text-lg 2xl:text-xl mx-auto italic">
           Technologies I use daily to build high-performance web systems.
         </p>
       </div>

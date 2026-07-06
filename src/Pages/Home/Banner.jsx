@@ -24,7 +24,7 @@ const Banner = () => {
     <>
       {/* content section start */}
       <div className="container mx-auto py-10 sm:py-5">
-        <div className="flex flex-col sm:flex-row justify-around sm:justify-between items-center h-full sm:h-[450px] gap-10 sm:gap-5 md:gap-4 lg:gap-6 relative">
+        <div className="flex flex-col sm:flex-row justify-around sm:justify-between items-center h-full sm:h-[450px] lg:h-[480px] gap-10 sm:gap-5 md:gap-4 lg:gap-6 relative">
           {/* left start */}
             <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500" className="w-full sm:w-1/2">
               {/* top item */}
