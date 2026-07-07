@@ -4,12 +4,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const stack = [
-  {name: 'React.js', image: '../../../public/react.png'},
-  {name: 'Typescript', image: '../../../public/typescript.png'},
-  {name: 'Node.js', image: '../../../public/node.png'},
-  {name: 'Express.js', image: '../../../public/express.png'},
-  {name: 'MongooDB', image: '../../../public/mongoodb.png'},
-  {name: 'MongooseODM', image: '../../../public/mongoose.png'},
+  {name: 'React.js', image: '../react.png'},
+  {name: 'Typescript', image: '../typescript.png'},
+  {name: 'Node.js', image: '../node.png'},
+  {name: 'Express.js', image: '../express.png'},
+  {name: 'MongooDB', image: '../mongoodb.png'},
+  {name: 'MongooseODM', image: '../mongoose.png'},
 ];
 
 const CoreStack = () => {
