@@ -50,8 +50,7 @@ const Ido = () => {
           {
             data?.map((item, index) => {
               const IconComponent = item.icon;
-              
-              // এই যে এখানে return যোগ করা হয়েছে
+
               return (
                 <div key={index} data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500" className="h-full w-full">
                   <div className={`${color ? 'bg-white shadow-inner shadow-slate-300' : 'bg-black shadow-inner shadow-slate-600'} serviceCon p-4 sm:p-4 md:p-4 lg:p-5 xl:p-6 2xl:p-7 flex flex-col justify-between gap-3 sm:gap-3 md:gap-4 xl:gap-2 h-full w-full`}>

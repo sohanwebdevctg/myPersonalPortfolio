@@ -114,17 +114,17 @@
 
 {
     "id" : 12,
-    "projectType" : "asp.net core",
-    "projectName" : "SuperShop (E-commerce POS)",
-    "image" : "../asp.net.png",
-    "details" : "A robust Full-Stack Retail POS and Office Management system. This project features a centralized dashboard where employees can request daily necessities, and an administrative layer for order oversight. It streamlines the procurement process by allowing admins to approve, reject, or delete product requests in real-time. Admin Access -> Email: admin@gmail.com | Password: 123456",
-    "feature" : [
-      "Integrated Secure Payment Gateway supporting Mobile Banking and Card services.",
-      "Advanced Product Management with multi-service utility features.",
-      "Real-time Feedback and Approval system for administrative control.",
-      "Built with ASP.NET Core MVC, Entity Framework, and MS SQL Server."
-    ],
-    "liveLink": "https://github.com/sohanwebdevctg/ASPDotNet-Core-WebApp-MVC-Base-SuperShop-EcommerceType-Project",
-    "codeLink": "https://github.com/sohanwebdevctg/ASPDotNet-Core-WebApp-MVC-Base-SuperShop-EcommerceType-Project"
+    "projectType" : "mern stack",
+    "projectName" : "OfficeOS (ERP)",
+    "image" : "../officeos.png",
+    "details": "A robust Full-Stack ERP and Office Management system designed to optimize corporate workflows. This project features a centralized dashboard where employees can seamlessly manage requests, integrated with a powerful administrative layer for real-time oversight, approvals, and operation control. Admin Access -> Email: sohan@gmail.com | Password: Sohan@1234*#",
+  "feature": [
+    "Integrated Secure Payment Gateway supporting Mobile Banking and Card services.",
+    "Advanced Product Management with multi-service utility features.",
+    "Real-time Feedback and Approval system for administrative control.",
+    "Upgrading the system with TypeScript, secure state management, and optimized Mongoose caching."
+  ],
+    "liveLink": "https://glittery-gaufre-6f963d.netlify.app/login",
+    "codeLink": "https://github.com/sohanwebdevctg/mern-stack-officeos-front-end"
 }
 ]

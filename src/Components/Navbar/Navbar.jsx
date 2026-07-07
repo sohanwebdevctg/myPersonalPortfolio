@@ -68,18 +68,6 @@ const Navbar = () => {
                           ? `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold ${color ? 'text-red-500':'text-yellow-500'} duration-300`
                           : `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl ${color ? 'text-black' : 'text-white'}`
                       }
-                      to="/service"
-                    >
-                      Service
-                    </NavLink>
-                  </li>
-                <li>
-                    <NavLink
-                      className={({ isActive }) =>
-                        isActive
-                          ? `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl font-bold ${color ? 'text-red-500':'text-yellow-500'} duration-300`
-                          : `sm:text-[11px] md:text-[13px] lg:text-sm xl:text-base 2xl:text-xl ${color ? 'text-black' : 'text-white'}`
-                      }
                       to="/project"
                     >
                       Project
@@ -162,18 +150,6 @@ const Navbar = () => {
                     to="/about"
                   >
                     About
-                  </NavLink>
-                </li>
-                <li onClick={() => setToggle(!toggle)}>
-                  <NavLink
-                    className={({ isActive }) =>
-                      isActive
-                        ? `text-sm ${color ? 'text-red-500':'text-yellow-500'} font-bold`
-                        : `text-sm ${color ? 'text-black' : 'text-white'}`
-                    }
-                    to="/service"
-                  >
-                    Service
                   </NavLink>
                 </li>
                 <li onClick={() => setToggle(!toggle)}>

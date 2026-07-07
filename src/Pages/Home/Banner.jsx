@@ -1,4 +1,4 @@
-import { FaFacebookF, FaGithub, FaArrowDown, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {  FaArrowDown } from "react-icons/fa";
 import image from '../../../public/image.png';
 import { Link } from "react-router-dom";
 import AOS from 'aos';
@@ -18,7 +18,6 @@ const Banner = () => {
 
   // context
   const {color} = useContext(AuthContext);
-
 
   return (
     <>
