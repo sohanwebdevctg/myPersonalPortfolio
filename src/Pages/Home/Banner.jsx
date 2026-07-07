@@ -35,10 +35,10 @@ const Banner = () => {
                 Hi, I am <span className={`${color ? 'text-red-500' : 'text-yellow-400'}`}>Md. Amir Hossain Sohan</span>
               </h2>
               <h2 className={`text-[21px] sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-extrabold ${color ? 'text-black' : 'text-slate-200'}`}>
-                Full-Stack .Net Developer
+                Full-Stack Developer
               </h2>
               <p className="mt-1 md:my-2 text-sm sm:text-[13px] md:text-base lg:text-lg xl:text-lg 2xl:text-xl italic text-gray-500 text-justify">
-              I am a passionate Full-Stack Developer specializing in building robust web applications using the .NET ecosystem and modern frontend technologies like React.js. I have a proven track record of developing end-to-end solutions, including secure payment integrations and complex admin dashboards, ensuring both performance and scalability.
+              I am a passionate Full-Stack Developer specializing in building robust web applications with MERN stack and TypeScript that drive real impact. Developing high-performance end-to-end solutions, including secure payment integrations and complex admin dashboards. I continuously level up my skills to deliver scalable and optimized web systems.
               </p>
               <ul className="flex items-center gap-3 xl:gap-5 mt-3">
               <li>
